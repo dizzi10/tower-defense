@@ -1,0 +1,1332 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class GameUI
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class GameUI
+   ">
+    <meta name="generator" content="docfx 2.58.9.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="TowerDefense.UI.HUD.GameUI">
+  
+  
+  <h1 id="TowerDefense_UI_HUD_GameUI" data-uid="TowerDefense.UI.HUD.GameUI" class="text-break">Class GameUI
+  </h1>
+  <div class="markdown level0 summary"><p>An object that manages user interaction with the game. Its responsibilities deal with</p>
+<ul><li>Building towers</li><li>Selecting towers and units</li></ul>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">GameUI</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="TowerDefense.UI.HUD.html">TowerDefense.UI.HUD</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="TowerDefense_UI_HUD_GameUI_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class GameUI : Singleton&lt;GameUI&gt;</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="TowerDefense_UI_HUD_GameUI_buildInfoUI" data-uid="TowerDefense.UI.HUD.GameUI.buildInfoUI">buildInfoUI</h4>
+  <div class="markdown level1 summary"><p>The UI controller for displaying tower information
+whilst placing</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BuildInfoUI buildInfoUI</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TowerDefense.UI.HUD.BuildInfoUI.html">BuildInfoUI</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TowerDefense_UI_HUD_GameUI_ghostWorldPlacementMask" data-uid="TowerDefense.UI.HUD.GameUI.ghostWorldPlacementMask">ghostWorldPlacementMask</h4>
+  <div class="markdown level1 summary"><p>The physics layer for moving the ghost around the world
+when the placement is not valid</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public LayerMask ghostWorldPlacementMask</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">LayerMask</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TowerDefense_UI_HUD_GameUI_placementAreaMask" data-uid="TowerDefense.UI.HUD.GameUI.placementAreaMask">placementAreaMask</h4>
+  <div class="markdown level1 summary"><p>The currently selected tower</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public LayerMask placementAreaMask</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">LayerMask</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TowerDefense_UI_HUD_GameUI_radiusVisualizerController" data-uid="TowerDefense.UI.HUD.GameUI.radiusVisualizerController">radiusVisualizerController</h4>
+  <div class="markdown level1 summary"><p>Component that manages the radius visualizers of ghosts and towers</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RadiusVisualizerController radiusVisualizerController</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TowerDefense.UI.RadiusVisualizerController.html">RadiusVisualizerController</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TowerDefense_UI_HUD_GameUI_sphereCastRadius" data-uid="TowerDefense.UI.HUD.GameUI.sphereCastRadius">sphereCastRadius</h4>
+  <div class="markdown level1 summary"><p>The radius of the sphere cast
+for checking ghost placement</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float sphereCastRadius</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TowerDefense_UI_HUD_GameUI_towerSelectionLayer" data-uid="TowerDefense.UI.HUD.GameUI.towerSelectionLayer">towerSelectionLayer</h4>
+  <div class="markdown level1 summary"><p>The layer for tower selection</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public LayerMask towerSelectionLayer</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">LayerMask</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TowerDefense_UI_HUD_GameUI_towerUI" data-uid="TowerDefense.UI.HUD.GameUI.towerUI">towerUI</h4>
+  <div class="markdown level1 summary"><p>The UI controller for displaying individual tower data</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TowerUI towerUI</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TowerDefense.UI.HUD.TowerUI.html">TowerUI</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="TowerDefense_UI_HUD_GameUI_currentSelectedTower_" data-uid="TowerDefense.UI.HUD.GameUI.currentSelectedTower*"></a>
+  <h4 id="TowerDefense_UI_HUD_GameUI_currentSelectedTower" data-uid="TowerDefense.UI.HUD.GameUI.currentSelectedTower">currentSelectedTower</h4>
+  <div class="markdown level1 summary"><p>Gets the current selected tower</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Tower currentSelectedTower { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Tower</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TowerDefense_UI_HUD_GameUI_isBuilding_" data-uid="TowerDefense.UI.HUD.GameUI.isBuilding*"></a>
+  <h4 id="TowerDefense_UI_HUD_GameUI_isBuilding" data-uid="TowerDefense.UI.HUD.GameUI.isBuilding">isBuilding</h4>
+  <div class="markdown level1 summary"><p>Gets whether certain build operations are valid</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool isBuilding { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TowerDefense_UI_HUD_GameUI_isTowerSelected_" data-uid="TowerDefense.UI.HUD.GameUI.isTowerSelected*"></a>
+  <h4 id="TowerDefense_UI_HUD_GameUI_isTowerSelected" data-uid="TowerDefense.UI.HUD.GameUI.isTowerSelected">isTowerSelected</h4>
+  <div class="markdown level1 summary"><p>Gets whether a tower has been selected</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool isTowerSelected { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TowerDefense_UI_HUD_GameUI_state_" data-uid="TowerDefense.UI.HUD.GameUI.state*"></a>
+  <h4 id="TowerDefense_UI_HUD_GameUI_state" data-uid="TowerDefense.UI.HUD.GameUI.state">state</h4>
+  <div class="markdown level1 summary"><p>Gets the current UI state</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GameUI.State state { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TowerDefense.UI.HUD.GameUI.State.html">GameUI.State</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="TowerDefense_UI_HUD_GameUI_Awake_" data-uid="TowerDefense.UI.HUD.GameUI.Awake*"></a>
+  <h4 id="TowerDefense_UI_HUD_GameUI_Awake" data-uid="TowerDefense.UI.HUD.GameUI.Awake">Awake()</h4>
+  <div class="markdown level1 summary"><p>Set initial values, cache attached components
+and configure the controls</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void Awake()</code></pre>
+  </div>
+  
+  
+  <a id="TowerDefense_UI_HUD_GameUI_BuyTower_" data-uid="TowerDefense.UI.HUD.GameUI.BuyTower*"></a>
+  <h4 id="TowerDefense_UI_HUD_GameUI_BuyTower" data-uid="TowerDefense.UI.HUD.GameUI.BuyTower">BuyTower()</h4>
+  <div class="markdown level1 summary"><p>Buys the tower and places it in the place that it currently is</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void BuyTower()</code></pre>
+  </div>
+  
+  
+  <a id="TowerDefense_UI_HUD_GameUI_BuyTower_" data-uid="TowerDefense.UI.HUD.GameUI.BuyTower*"></a>
+  <h4 id="TowerDefense_UI_HUD_GameUI_BuyTower_TowerDefense_UI_HUD_UIPointer_" data-uid="TowerDefense.UI.HUD.GameUI.BuyTower(TowerDefense.UI.HUD.UIPointer)">BuyTower(UIPointer)</h4>
+  <div class="markdown level1 summary"><p>Used to buy the tower during the build phase
+Checks currency and calls <a class="xref" href="TowerDefense.UI.HUD.GameUI.html#TowerDefense_UI_HUD_GameUI_PlaceGhost_TowerDefense_UI_HUD_UIPointer_">PlaceGhost(UIPointer)</a>
+<exception cref="!:InvalidOperationException">
+Throws exception when not in a build mode or when tower is not a valid position
+</exception></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void BuyTower(UIPointer pointer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TowerDefense.UI.HUD.UIPointer.html">UIPointer</a></td>
+        <td><span class="parametername">pointer</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TowerDefense_UI_HUD_GameUI_CancelGhostPlacement_" data-uid="TowerDefense.UI.HUD.GameUI.CancelGhostPlacement*"></a>
+  <h4 id="TowerDefense_UI_HUD_GameUI_CancelGhostPlacement" data-uid="TowerDefense.UI.HUD.GameUI.CancelGhostPlacement">CancelGhostPlacement()</h4>
+  <div class="markdown level1 summary"><p>Cancel placing the ghost</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void CancelGhostPlacement()</code></pre>
+  </div>
+  
+  
+  <a id="TowerDefense_UI_HUD_GameUI_ChangeToDragMode_" data-uid="TowerDefense.UI.HUD.GameUI.ChangeToDragMode*"></a>
+  <h4 id="TowerDefense_UI_HUD_GameUI_ChangeToDragMode" data-uid="TowerDefense.UI.HUD.GameUI.ChangeToDragMode">ChangeToDragMode()</h4>
+  <div class="markdown level1 summary"><p>Returns the GameUI to dragging mode with the curent tower</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ChangeToDragMode()</code></pre>
+  </div>
+  
+  
+  <a id="TowerDefense_UI_HUD_GameUI_DeselectTower_" data-uid="TowerDefense.UI.HUD.GameUI.DeselectTower*"></a>
+  <h4 id="TowerDefense_UI_HUD_GameUI_DeselectTower" data-uid="TowerDefense.UI.HUD.GameUI.DeselectTower">DeselectTower()</h4>
+  <div class="markdown level1 summary"><p>Deselect the current tower and hides the UI</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DeselectTower()</code></pre>
+  </div>
+  
+  
+  <a id="TowerDefense_UI_HUD_GameUI_GameOver_" data-uid="TowerDefense.UI.HUD.GameUI.GameOver*"></a>
+  <h4 id="TowerDefense_UI_HUD_GameUI_GameOver" data-uid="TowerDefense.UI.HUD.GameUI.GameOver">GameOver()</h4>
+  <div class="markdown level1 summary"><p>Called when the game is over</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GameOver()</code></pre>
+  </div>
+  
+  
+  <a id="TowerDefense_UI_HUD_GameUI_GetGhostPosition_" data-uid="TowerDefense.UI.HUD.GameUI.GetGhostPosition*"></a>
+  <h4 id="TowerDefense_UI_HUD_GameUI_GetGhostPosition" data-uid="TowerDefense.UI.HUD.GameUI.GetGhostPosition">GetGhostPosition()</h4>
+  <div class="markdown level1 summary"><p>Gets the world position of the ghost tower</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 GetGhostPosition()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TowerDefense_UI_HUD_GameUI_HideRadiusVisualizer_" data-uid="TowerDefense.UI.HUD.GameUI.HideRadiusVisualizer*"></a>
+  <h4 id="TowerDefense_UI_HUD_GameUI_HideRadiusVisualizer" data-uid="TowerDefense.UI.HUD.GameUI.HideRadiusVisualizer">HideRadiusVisualizer()</h4>
+  <div class="markdown level1 summary"><p>Hides the radius visualizer</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void HideRadiusVisualizer()</code></pre>
+  </div>
+  
+  
+  <a id="TowerDefense_UI_HUD_GameUI_IsGhostAtValidPosition_" data-uid="TowerDefense.UI.HUD.GameUI.IsGhostAtValidPosition*"></a>
+  <h4 id="TowerDefense_UI_HUD_GameUI_IsGhostAtValidPosition" data-uid="TowerDefense.UI.HUD.GameUI.IsGhostAtValidPosition">IsGhostAtValidPosition()</h4>
+  <div class="markdown level1 summary"><p>Checks the position of the <span class="xref">TowerDefense.UI.HUD.GameUI.m_CurrentTower</span>
+on the <span class="xref">TowerDefense.UI.HUD.GameUI.m_CurrentArea</span></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsGhostAtValidPosition()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if the placement is valid</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TowerDefense_UI_HUD_GameUI_IsOverUI_" data-uid="TowerDefense.UI.HUD.GameUI.IsOverUI*"></a>
+  <h4 id="TowerDefense_UI_HUD_GameUI_IsOverUI_PointerInfo_" data-uid="TowerDefense.UI.HUD.GameUI.IsOverUI(PointerInfo)">IsOverUI(PointerInfo)</h4>
+  <div class="markdown level1 summary"><p>Checks whether a given pointer is over any UI</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected bool IsOverUI(PointerInfo pointerInfo)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">PointerInfo</span></td>
+        <td><span class="parametername">pointerInfo</span></td>
+        <td><p>The pointer to test</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if the event system reports this pointer being over UI</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TowerDefense_UI_HUD_GameUI_IsPointerOverGhost_" data-uid="TowerDefense.UI.HUD.GameUI.IsPointerOverGhost*"></a>
+  <h4 id="TowerDefense_UI_HUD_GameUI_IsPointerOverGhost_PointerInfo_" data-uid="TowerDefense.UI.HUD.GameUI.IsPointerOverGhost(PointerInfo)">IsPointerOverGhost(PointerInfo)</h4>
+  <div class="markdown level1 summary"><p>Calculates whether the given pointer is over the current tower ghost</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsPointerOverGhost(PointerInfo pointerInfo)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">PointerInfo</span></td>
+        <td><span class="parametername">pointerInfo</span></td>
+        <td><p>The information used to check against the <span class="xref">TowerDefense.UI.HUD.GameUI.m_CurrentTower</span></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TowerDefense_UI_HUD_GameUI_IsValidPurchase_" data-uid="TowerDefense.UI.HUD.GameUI.IsValidPurchase*"></a>
+  <h4 id="TowerDefense_UI_HUD_GameUI_IsValidPurchase" data-uid="TowerDefense.UI.HUD.GameUI.IsValidPurchase">IsValidPurchase()</h4>
+  <div class="markdown level1 summary"><p>Checks if buying the ghost tower is possible</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsValidPurchase()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if can purchase</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TowerDefense_UI_HUD_GameUI_MoveGhost_" data-uid="TowerDefense.UI.HUD.GameUI.MoveGhost*"></a>
+  <h4 id="TowerDefense_UI_HUD_GameUI_MoveGhost_TowerDefense_UI_HUD_UIPointer_System_Boolean_" data-uid="TowerDefense.UI.HUD.GameUI.MoveGhost(TowerDefense.UI.HUD.UIPointer,System.Boolean)">MoveGhost(UIPointer, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Move the ghost to the pointer's position</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void MoveGhost(UIPointer pointer, bool hideWhenInvalid = true)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TowerDefense.UI.HUD.UIPointer.html">UIPointer</a></td>
+        <td><span class="parametername">pointer</span></td>
+        <td><p>The pointer to place the ghost at</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">hideWhenInvalid</span></td>
+        <td><p>Optional parameter for whether the ghost should be hidden or not</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TowerDefense_UI_HUD_GameUI_MoveGhostOntoWorld_" data-uid="TowerDefense.UI.HUD.GameUI.MoveGhostOntoWorld*"></a>
+  <h4 id="TowerDefense_UI_HUD_GameUI_MoveGhostOntoWorld_Ray_System_Boolean_" data-uid="TowerDefense.UI.HUD.GameUI.MoveGhostOntoWorld(Ray,System.Boolean)">MoveGhostOntoWorld(Ray, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Move ghost with the given ray</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void MoveGhostOntoWorld(Ray ray, bool hideWhenInvalid)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Ray</span></td>
+        <td><span class="parametername">ray</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">hideWhenInvalid</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TowerDefense_UI_HUD_GameUI_MoveGhostToCenter_" data-uid="TowerDefense.UI.HUD.GameUI.MoveGhostToCenter*"></a>
+  <h4 id="TowerDefense_UI_HUD_GameUI_MoveGhostToCenter" data-uid="TowerDefense.UI.HUD.GameUI.MoveGhostToCenter">MoveGhostToCenter()</h4>
+  <div class="markdown level1 summary"><p>Moves the ghost to the center of the screen</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MoveGhostToCenter()</code></pre>
+  </div>
+  
+  
+  <a id="TowerDefense_UI_HUD_GameUI_MoveGhostWithRaycastHit_" data-uid="TowerDefense.UI.HUD.GameUI.MoveGhostWithRaycastHit*"></a>
+  <h4 id="TowerDefense_UI_HUD_GameUI_MoveGhostWithRaycastHit_RaycastHit_" data-uid="TowerDefense.UI.HUD.GameUI.MoveGhostWithRaycastHit(RaycastHit)">MoveGhostWithRaycastHit(RaycastHit)</h4>
+  <div class="markdown level1 summary"><p>Move ghost with successful raycastHit onto m_PlacementAreaMask</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void MoveGhostWithRaycastHit(RaycastHit raycast)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">RaycastHit</span></td>
+        <td><span class="parametername">raycast</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TowerDefense_UI_HUD_GameUI_OnCurrencyChanged_" data-uid="TowerDefense.UI.HUD.GameUI.OnCurrencyChanged*"></a>
+  <h4 id="TowerDefense_UI_HUD_GameUI_OnCurrencyChanged" data-uid="TowerDefense.UI.HUD.GameUI.OnCurrencyChanged">OnCurrencyChanged()</h4>
+  <div class="markdown level1 summary"><p>Modifies the valid rendering of the ghost tower once there is enough currency</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnCurrencyChanged()</code></pre>
+  </div>
+  
+  
+  <a id="TowerDefense_UI_HUD_GameUI_OnDestroy_" data-uid="TowerDefense.UI.HUD.GameUI.OnDestroy*"></a>
+  <h4 id="TowerDefense_UI_HUD_GameUI_OnDestroy" data-uid="TowerDefense.UI.HUD.GameUI.OnDestroy">OnDestroy()</h4>
+  <div class="markdown level1 summary"><p>Reset TimeScale if game is paused</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnDestroy()</code></pre>
+  </div>
+  
+  
+  <a id="TowerDefense_UI_HUD_GameUI_OnDisable_" data-uid="TowerDefense.UI.HUD.GameUI.OnDisable*"></a>
+  <h4 id="TowerDefense_UI_HUD_GameUI_OnDisable" data-uid="TowerDefense.UI.HUD.GameUI.OnDisable">OnDisable()</h4>
+  <div class="markdown level1 summary"><p>Unsubscribe from the level manager</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnDisable()</code></pre>
+  </div>
+  
+  
+  <a id="TowerDefense_UI_HUD_GameUI_OnEnable_" data-uid="TowerDefense.UI.HUD.GameUI.OnEnable*"></a>
+  <h4 id="TowerDefense_UI_HUD_GameUI_OnEnable" data-uid="TowerDefense.UI.HUD.GameUI.OnEnable">OnEnable()</h4>
+  <div class="markdown level1 summary"><p>Subscribe to the level manager</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnEnable()</code></pre>
+  </div>
+  
+  
+  <a id="TowerDefense_UI_HUD_GameUI_OnTowerDied_" data-uid="TowerDefense.UI.HUD.GameUI.OnTowerDied*"></a>
+  <h4 id="TowerDefense_UI_HUD_GameUI_OnTowerDied_DamageableBehaviour_" data-uid="TowerDefense.UI.HUD.GameUI.OnTowerDied(DamageableBehaviour)">OnTowerDied(DamageableBehaviour)</h4>
+  <div class="markdown level1 summary"><p>Closes the Tower UI on death of tower</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void OnTowerDied(DamageableBehaviour targetable)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">DamageableBehaviour</span></td>
+        <td><span class="parametername">targetable</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TowerDefense_UI_HUD_GameUI_Pause_" data-uid="TowerDefense.UI.HUD.GameUI.Pause*"></a>
+  <h4 id="TowerDefense_UI_HUD_GameUI_Pause" data-uid="TowerDefense.UI.HUD.GameUI.Pause">Pause()</h4>
+  <div class="markdown level1 summary"><p>Pause the game and display the pause menu</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Pause()</code></pre>
+  </div>
+  
+  
+  <a id="TowerDefense_UI_HUD_GameUI_PlaceGhost_" data-uid="TowerDefense.UI.HUD.GameUI.PlaceGhost*"></a>
+  <h4 id="TowerDefense_UI_HUD_GameUI_PlaceGhost_TowerDefense_UI_HUD_UIPointer_" data-uid="TowerDefense.UI.HUD.GameUI.PlaceGhost(TowerDefense.UI.HUD.UIPointer)">PlaceGhost(UIPointer)</h4>
+  <div class="markdown level1 summary"><p>Place the ghost at the pointer's position</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void PlaceGhost(UIPointer pointer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TowerDefense.UI.HUD.UIPointer.html">UIPointer</a></td>
+        <td><span class="parametername">pointer</span></td>
+        <td><p>The pointer to place the ghost at</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TowerDefense_UI_HUD_GameUI_PlacementAreaRaycast_" data-uid="TowerDefense.UI.HUD.GameUI.PlacementAreaRaycast*"></a>
+  <h4 id="TowerDefense_UI_HUD_GameUI_PlacementAreaRaycast_TowerDefense_UI_HUD_UIPointer__" data-uid="TowerDefense.UI.HUD.GameUI.PlacementAreaRaycast(TowerDefense.UI.HUD.UIPointer@)">PlacementAreaRaycast(ref UIPointer)</h4>
+  <div class="markdown level1 summary"><p>Raycast onto tower placement areas</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void PlacementAreaRaycast(ref UIPointer pointer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TowerDefense.UI.HUD.UIPointer.html">UIPointer</a></td>
+        <td><span class="parametername">pointer</span></td>
+        <td><p>The pointer we're testing</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TowerDefense_UI_HUD_GameUI_PlaceTower_" data-uid="TowerDefense.UI.HUD.GameUI.PlaceTower*"></a>
+  <h4 id="TowerDefense_UI_HUD_GameUI_PlaceTower" data-uid="TowerDefense.UI.HUD.GameUI.PlaceTower">PlaceTower()</h4>
+  <div class="markdown level1 summary"><p>Places a tower where the ghost tower is</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void PlaceTower()</code></pre>
+  </div>
+  
+  
+  <a id="TowerDefense_UI_HUD_GameUI_ReturnToBuildMode_" data-uid="TowerDefense.UI.HUD.GameUI.ReturnToBuildMode*"></a>
+  <h4 id="TowerDefense_UI_HUD_GameUI_ReturnToBuildMode" data-uid="TowerDefense.UI.HUD.GameUI.ReturnToBuildMode">ReturnToBuildMode()</h4>
+  <div class="markdown level1 summary"><p>Returns the GameUI to BuildMode with the current tower</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ReturnToBuildMode()</code></pre>
+  </div>
+  
+  
+  <a id="TowerDefense_UI_HUD_GameUI_SelectTower_" data-uid="TowerDefense.UI.HUD.GameUI.SelectTower*"></a>
+  <h4 id="TowerDefense_UI_HUD_GameUI_SelectTower_Tower_" data-uid="TowerDefense.UI.HUD.GameUI.SelectTower(Tower)">SelectTower(Tower)</h4>
+  <div class="markdown level1 summary"><p>Activates the tower controller UI with the specific information</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SelectTower(Tower tower)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Tower</span></td>
+        <td><span class="parametername">tower</span></td>
+        <td><p>The tower controller information to use</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TowerDefense_UI_HUD_GameUI_SellSelectedTower_" data-uid="TowerDefense.UI.HUD.GameUI.SellSelectedTower*"></a>
+  <h4 id="TowerDefense_UI_HUD_GameUI_SellSelectedTower" data-uid="TowerDefense.UI.HUD.GameUI.SellSelectedTower">SellSelectedTower()</h4>
+  <div class="markdown level1 summary"><p>Sells <a class="xref" href="TowerDefense.UI.HUD.GameUI.html#TowerDefense_UI_HUD_GameUI_currentSelectedTower">currentSelectedTower</a> if possible</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SellSelectedTower()</code></pre>
+  </div>
+  
+  
+  <a id="TowerDefense_UI_HUD_GameUI_SetToBuildMode_" data-uid="TowerDefense.UI.HUD.GameUI.SetToBuildMode*"></a>
+  <h4 id="TowerDefense_UI_HUD_GameUI_SetToBuildMode_Tower_" data-uid="TowerDefense.UI.HUD.GameUI.SetToBuildMode(Tower)">SetToBuildMode(Tower)</h4>
+  <div class="markdown level1 summary"><p>Sets the UI into a build state for a given tower</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetToBuildMode(Tower towerToBuild)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Tower</span></td>
+        <td><span class="parametername">towerToBuild</span></td>
+        <td><p>The tower to build</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TowerDefense_UI_HUD_GameUI_SetToDragMode_" data-uid="TowerDefense.UI.HUD.GameUI.SetToDragMode*"></a>
+  <h4 id="TowerDefense_UI_HUD_GameUI_SetToDragMode_Tower_" data-uid="TowerDefense.UI.HUD.GameUI.SetToDragMode(Tower)">SetToDragMode(Tower)</h4>
+  <div class="markdown level1 summary"><p>Changes the mode to drag</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetToDragMode(Tower towerToBuild)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Tower</span></td>
+        <td><span class="parametername">towerToBuild</span></td>
+        <td><p>The tower to build</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TowerDefense_UI_HUD_GameUI_SetupRadiusVisualizer_" data-uid="TowerDefense.UI.HUD.GameUI.SetupRadiusVisualizer*"></a>
+  <h4 id="TowerDefense_UI_HUD_GameUI_SetupRadiusVisualizer_Tower_Transform_" data-uid="TowerDefense.UI.HUD.GameUI.SetupRadiusVisualizer(Tower,Transform)">SetupRadiusVisualizer(Tower, Transform)</h4>
+  <div class="markdown level1 summary"><p>Sets up the radius visualizer for a tower or ghost tower</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetupRadiusVisualizer(Tower tower, Transform ghost = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Tower</span></td>
+        <td><span class="parametername">tower</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Transform</span></td>
+        <td><span class="parametername">ghost</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TowerDefense_UI_HUD_GameUI_TryMoveGhost_" data-uid="TowerDefense.UI.HUD.GameUI.TryMoveGhost*"></a>
+  <h4 id="TowerDefense_UI_HUD_GameUI_TryMoveGhost_PointerInfo_System_Boolean_" data-uid="TowerDefense.UI.HUD.GameUI.TryMoveGhost(PointerInfo,System.Boolean)">TryMoveGhost(PointerInfo, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Position the ghost tower at the given pointer</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void TryMoveGhost(PointerInfo pointerInfo, bool hideWhenInvalid = true)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">PointerInfo</span></td>
+        <td><span class="parametername">pointerInfo</span></td>
+        <td><p>The pointer we're using to position the tower</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">hideWhenInvalid</span></td>
+        <td><p>Optional parameter for configuring if the ghost is hidden when in an invalid location</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TowerDefense_UI_HUD_GameUI_TryPlaceTower_" data-uid="TowerDefense.UI.HUD.GameUI.TryPlaceTower*"></a>
+  <h4 id="TowerDefense_UI_HUD_GameUI_TryPlaceTower_PointerInfo_" data-uid="TowerDefense.UI.HUD.GameUI.TryPlaceTower(PointerInfo)">TryPlaceTower(PointerInfo)</h4>
+  <div class="markdown level1 summary"><p>Attempt to position a tower at the given location</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void TryPlaceTower(PointerInfo pointerInfo)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">PointerInfo</span></td>
+        <td><span class="parametername">pointerInfo</span></td>
+        <td><p>The pointer we're using to position the tower</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TowerDefense_UI_HUD_GameUI_TrySelectTower_" data-uid="TowerDefense.UI.HUD.GameUI.TrySelectTower*"></a>
+  <h4 id="TowerDefense_UI_HUD_GameUI_TrySelectTower_PointerInfo_" data-uid="TowerDefense.UI.HUD.GameUI.TrySelectTower(PointerInfo)">TrySelectTower(PointerInfo)</h4>
+  <div class="markdown level1 summary"><p>Selects a tower beneath the given pointer if there is one</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void TrySelectTower(PointerInfo info)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">PointerInfo</span></td>
+        <td><span class="parametername">info</span></td>
+        <td><p>The pointer information concerning the selector of the pointer</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TowerDefense_UI_HUD_GameUI_Unpause_" data-uid="TowerDefense.UI.HUD.GameUI.Unpause*"></a>
+  <h4 id="TowerDefense_UI_HUD_GameUI_Unpause" data-uid="TowerDefense.UI.HUD.GameUI.Unpause">Unpause()</h4>
+  <div class="markdown level1 summary"><p>Resume the game and close the pause menu</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Unpause()</code></pre>
+  </div>
+  
+  
+  <a id="TowerDefense_UI_HUD_GameUI_UpgradeSelectedTower_" data-uid="TowerDefense.UI.HUD.GameUI.UpgradeSelectedTower*"></a>
+  <h4 id="TowerDefense_UI_HUD_GameUI_UpgradeSelectedTower" data-uid="TowerDefense.UI.HUD.GameUI.UpgradeSelectedTower">UpgradeSelectedTower()</h4>
+  <div class="markdown level1 summary"><p>Upgrades <a class="xref" href="TowerDefense.UI.HUD.GameUI.html#TowerDefense_UI_HUD_GameUI_currentSelectedTower">currentSelectedTower</a>, if possible</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UpgradeSelectedTower()</code></pre>
+  </div>
+  
+  
+  <a id="TowerDefense_UI_HUD_GameUI_WrapPointer_" data-uid="TowerDefense.UI.HUD.GameUI.WrapPointer*"></a>
+  <h4 id="TowerDefense_UI_HUD_GameUI_WrapPointer_PointerInfo_" data-uid="TowerDefense.UI.HUD.GameUI.WrapPointer(PointerInfo)">WrapPointer(PointerInfo)</h4>
+  <div class="markdown level1 summary"><p>Creates a new UIPointer holding data object for the given pointer position</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected UIPointer WrapPointer(PointerInfo pointerInfo)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">PointerInfo</span></td>
+        <td><span class="parametername">pointerInfo</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TowerDefense.UI.HUD.UIPointer.html">UIPointer</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="events">Events
+  </h3>
+  
+  
+  <h4 id="TowerDefense_UI_HUD_GameUI_ghostBecameValid" data-uid="TowerDefense.UI.HUD.GameUI.ghostBecameValid">ghostBecameValid</h4>
+  <div class="markdown level1 summary"><p>Fires off when the ghost was previously not valid but now is due to currency amount change</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action ghostBecameValid</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Action</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TowerDefense_UI_HUD_GameUI_selectionChanged" data-uid="TowerDefense.UI.HUD.GameUI.selectionChanged">selectionChanged</h4>
+  <div class="markdown level1 summary"><p>Fires when a tower is selected/deselected</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action&lt;Tower&gt; selectionChanged</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Action</span>&lt;<span class="xref">Tower</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TowerDefense_UI_HUD_GameUI_stateChanged" data-uid="TowerDefense.UI.HUD.GameUI.stateChanged">stateChanged</h4>
+  <div class="markdown level1 summary"><p>Fires when the <a class="xref" href="TowerDefense.UI.HUD.GameUI.State.html">GameUI.State</a> changes
+should only allow firing when TouchUI is used</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action&lt;GameUI.State, GameUI.State&gt; stateChanged</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Action</span>&lt;<a class="xref" href="TowerDefense.UI.HUD.GameUI.State.html">GameUI.State</a>, <a class="xref" href="TowerDefense.UI.HUD.GameUI.State.html">GameUI.State</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

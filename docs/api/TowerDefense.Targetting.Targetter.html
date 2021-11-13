@@ -1,0 +1,887 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class Targetter
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class Targetter
+   ">
+    <meta name="generator" content="docfx 2.58.9.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="TowerDefense.Targetting.Targetter">
+  
+  
+  <h1 id="TowerDefense_Targetting_Targetter" data-uid="TowerDefense.Targetting.Targetter" class="text-break">Class Targetter
+  </h1>
+  <div class="markdown level0 summary"><p>Class used to track targets for an affector</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">Targetter</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="TowerDefense.Targetting.html">TowerDefense.Targetting</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="TowerDefense_Targetting_Targetter_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class Targetter : MonoBehaviour</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="TowerDefense_Targetting_Targetter_alignment" data-uid="TowerDefense.Targetting.Targetter.alignment">alignment</h4>
+  <div class="markdown level1 summary"><p>The alignment of the affector</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IAlignmentProvider alignment</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IAlignmentProvider</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TowerDefense_Targetting_Targetter_attachedCollider" data-uid="TowerDefense.Targetting.Targetter.attachedCollider">attachedCollider</h4>
+  <div class="markdown level1 summary"><p>The collider attached to the targetter</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Collider attachedCollider</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Collider</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TowerDefense_Targetting_Targetter_idleCorrectionTime" data-uid="TowerDefense.Targetting.Targetter.idleCorrectionTime">idleCorrectionTime</h4>
+  <div class="markdown level1 summary"><p>The time it takes for the tower to correct its x rotation on idle in seconds</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float idleCorrectionTime</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TowerDefense_Targetting_Targetter_idleRotationSpeed" data-uid="TowerDefense.Targetting.Targetter.idleRotationSpeed">idleRotationSpeed</h4>
+  <div class="markdown level1 summary"><p>Y rotation speed while the turret is idle in degrees per second</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float idleRotationSpeed</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TowerDefense_Targetting_Targetter_idleWaitTime" data-uid="TowerDefense.Targetting.Targetter.idleWaitTime">idleWaitTime</h4>
+  <div class="markdown level1 summary"><p>How long the turret waits in its idle form before spinning in seconds</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float idleWaitTime</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TowerDefense_Targetting_Targetter_m_CurrentRotationSpeed" data-uid="TowerDefense.Targetting.Targetter.m_CurrentRotationSpeed">m_CurrentRotationSpeed</h4>
+  <div class="markdown level1 summary"><p>How fast this turret is spinning</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected float m_CurrentRotationSpeed</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TowerDefense_Targetting_Targetter_m_CurrrentTargetable" data-uid="TowerDefense.Targetting.Targetter.m_CurrrentTargetable">m_CurrrentTargetable</h4>
+  <div class="markdown level1 summary"><p>The current targetable</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Targetable m_CurrrentTargetable</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Targetable</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TowerDefense_Targetting_Targetter_m_HadTarget" data-uid="TowerDefense.Targetting.Targetter.m_HadTarget">m_HadTarget</h4>
+  <div class="markdown level1 summary"><p>If there was a targetable in the last frame</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected bool m_HadTarget</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TowerDefense_Targetting_Targetter_m_SearchTimer" data-uid="TowerDefense.Targetting.Targetter.m_SearchTimer">m_SearchTimer</h4>
+  <div class="markdown level1 summary"><p>The seconds until a search is allowed</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected float m_SearchTimer</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TowerDefense_Targetting_Targetter_m_TargetsInRange" data-uid="TowerDefense.Targetting.Targetter.m_TargetsInRange">m_TargetsInRange</h4>
+  <div class="markdown level1 summary"><p>The current targetables in the collider</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected List&lt;Targetable&gt; m_TargetsInRange</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">List</span>&lt;<span class="xref">Targetable</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TowerDefense_Targetting_Targetter_m_WaitTimer" data-uid="TowerDefense.Targetting.Targetter.m_WaitTimer">m_WaitTimer</h4>
+  <div class="markdown level1 summary"><p>The seconds until the tower starts spinning</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected float m_WaitTimer</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TowerDefense_Targetting_Targetter_m_XRotationCorrectionTime" data-uid="TowerDefense.Targetting.Targetter.m_XRotationCorrectionTime">m_XRotationCorrectionTime</h4>
+  <div class="markdown level1 summary"><p>Counter used for x rotation correction</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected float m_XRotationCorrectionTime</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TowerDefense_Targetting_Targetter_onlyYTurretRotation" data-uid="TowerDefense.Targetting.Targetter.onlyYTurretRotation">onlyYTurretRotation</h4>
+  <div class="markdown level1 summary"><p>If m_Turret rotates freely or only on y;</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool onlyYTurretRotation</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TowerDefense_Targetting_Targetter_searchRate" data-uid="TowerDefense.Targetting.Targetter.searchRate">searchRate</h4>
+  <div class="markdown level1 summary"><p>The search rate in searches per second</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float searchRate</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TowerDefense_Targetting_Targetter_turret" data-uid="TowerDefense.Targetting.Targetter.turret">turret</h4>
+  <div class="markdown level1 summary"><p>The transform to point at the target</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Transform turret</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Transform</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TowerDefense_Targetting_Targetter_turretXRotationRange" data-uid="TowerDefense.Targetting.Targetter.turretXRotationRange">turretXRotationRange</h4>
+  <div class="markdown level1 summary"><p>The range of the turret's x rotation</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector2 turretXRotationRange</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector2</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="TowerDefense_Targetting_Targetter_effectRadius_" data-uid="TowerDefense.Targetting.Targetter.effectRadius*"></a>
+  <h4 id="TowerDefense_Targetting_Targetter_effectRadius" data-uid="TowerDefense.Targetting.Targetter.effectRadius">effectRadius</h4>
+  <div class="markdown level1 summary"><p>returns the radius of the collider whether
+its a sphere or capsule</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float effectRadius { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="TowerDefense_Targetting_Targetter_AimTurret_" data-uid="TowerDefense.Targetting.Targetter.AimTurret*"></a>
+  <h4 id="TowerDefense_Targetting_Targetter_AimTurret" data-uid="TowerDefense.Targetting.Targetter.AimTurret">AimTurret()</h4>
+  <div class="markdown level1 summary"><p>Aims the turret at the current target</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void AimTurret()</code></pre>
+  </div>
+  
+  
+  <a id="TowerDefense_Targetting_Targetter_GetAllTargets_" data-uid="TowerDefense.Targetting.Targetter.GetAllTargets*"></a>
+  <h4 id="TowerDefense_Targetting_Targetter_GetAllTargets" data-uid="TowerDefense.Targetting.Targetter.GetAllTargets">GetAllTargets()</h4>
+  <div class="markdown level1 summary"><p>Returns all the targets within the collider. This list must not be changed as it is the working
+list of the targetter. Changing it could break the targetter</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;Targetable&gt; GetAllTargets()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">List</span>&lt;<span class="xref">Targetable</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TowerDefense_Targetting_Targetter_GetNearestTargetable_" data-uid="TowerDefense.Targetting.Targetter.GetNearestTargetable*"></a>
+  <h4 id="TowerDefense_Targetting_Targetter_GetNearestTargetable" data-uid="TowerDefense.Targetting.Targetter.GetNearestTargetable">GetNearestTargetable()</h4>
+  <div class="markdown level1 summary"><p>Returns the nearest targetable within the currently tracked targetables</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual Targetable GetNearestTargetable()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Targetable</span></td>
+        <td><p>The nearest targetable if there is one, null otherwise</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TowerDefense_Targetting_Targetter_GetTarget_" data-uid="TowerDefense.Targetting.Targetter.GetTarget*"></a>
+  <h4 id="TowerDefense_Targetting_Targetter_GetTarget" data-uid="TowerDefense.Targetting.Targetter.GetTarget">GetTarget()</h4>
+  <div class="markdown level1 summary"><p>Returns the current target</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Targetable GetTarget()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Targetable</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TowerDefense_Targetting_Targetter_IsTargetableValid_" data-uid="TowerDefense.Targetting.Targetter.IsTargetableValid*"></a>
+  <h4 id="TowerDefense_Targetting_Targetter_IsTargetableValid_Targetable_" data-uid="TowerDefense.Targetting.Targetter.IsTargetableValid(Targetable)">IsTargetableValid(Targetable)</h4>
+  <div class="markdown level1 summary"><p>Checks if the targetable is a valid target</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual bool IsTargetableValid(Targetable targetable)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Targetable</span></td>
+        <td><span class="parametername">targetable</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>true if targetable is vaild, false if not</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TowerDefense_Targetting_Targetter_OnTriggerEnter_" data-uid="TowerDefense.Targetting.Targetter.OnTriggerEnter*"></a>
+  <h4 id="TowerDefense_Targetting_Targetter_OnTriggerEnter_Collider_" data-uid="TowerDefense.Targetting.Targetter.OnTriggerEnter(Collider)">OnTriggerEnter(Collider)</h4>
+  <div class="markdown level1 summary"><p>On entering the trigger, a valid targetable is added to the tracking list.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnTriggerEnter(Collider other)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Collider</span></td>
+        <td><span class="parametername">other</span></td>
+        <td><p>The other collider in the collision</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TowerDefense_Targetting_Targetter_OnTriggerExit_" data-uid="TowerDefense.Targetting.Targetter.OnTriggerExit*"></a>
+  <h4 id="TowerDefense_Targetting_Targetter_OnTriggerExit_Collider_" data-uid="TowerDefense.Targetting.Targetter.OnTriggerExit(Collider)">OnTriggerExit(Collider)</h4>
+  <div class="markdown level1 summary"><p>On exiting the trigger, a valid targetable is removed from the tracking list.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnTriggerExit(Collider other)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Collider</span></td>
+        <td><span class="parametername">other</span></td>
+        <td><p>The other collider in the collision</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TowerDefense_Targetting_Targetter_ResetTargetter_" data-uid="TowerDefense.Targetting.Targetter.ResetTargetter*"></a>
+  <h4 id="TowerDefense_Targetting_Targetter_ResetTargetter" data-uid="TowerDefense.Targetting.Targetter.ResetTargetter">ResetTargetter()</h4>
+  <div class="markdown level1 summary"><p>Clears the list of current targets and clears all events</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ResetTargetter()</code></pre>
+  </div>
+  
+  
+  <a id="TowerDefense_Targetting_Targetter_Start_" data-uid="TowerDefense.Targetting.Targetter.Start*"></a>
+  <h4 id="TowerDefense_Targetting_Targetter_Start" data-uid="TowerDefense.Targetting.Targetter.Start">Start()</h4>
+  <div class="markdown level1 summary"><p>Starts the search timer</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void Start()</code></pre>
+  </div>
+  
+  
+  <a id="TowerDefense_Targetting_Targetter_Update_" data-uid="TowerDefense.Targetting.Targetter.Update*"></a>
+  <h4 id="TowerDefense_Targetting_Targetter_Update" data-uid="TowerDefense.Targetting.Targetter.Update">Update()</h4>
+  <div class="markdown level1 summary"><p>Checks if any targets are destroyed and aquires a new targetable if appropriate</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void Update()</code></pre>
+  </div>
+  <h3 id="events">Events
+  </h3>
+  
+  
+  <h4 id="TowerDefense_Targetting_Targetter_acquiredTarget" data-uid="TowerDefense.Targetting.Targetter.acquiredTarget">acquiredTarget</h4>
+  <div class="markdown level1 summary"><p>Fires when an appropriate target is found</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action&lt;Targetable&gt; acquiredTarget</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Action</span>&lt;<span class="xref">Targetable</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TowerDefense_Targetting_Targetter_lostTarget" data-uid="TowerDefense.Targetting.Targetter.lostTarget">lostTarget</h4>
+  <div class="markdown level1 summary"><p>Fires when the current target was lost</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action lostTarget</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Action</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TowerDefense_Targetting_Targetter_targetEntersRange" data-uid="TowerDefense.Targetting.Targetter.targetEntersRange">targetEntersRange</h4>
+  <div class="markdown level1 summary"><p>Fires when a targetable enters the target collider</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action&lt;Targetable&gt; targetEntersRange</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Action</span>&lt;<span class="xref">Targetable</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TowerDefense_Targetting_Targetter_targetExitsRange" data-uid="TowerDefense.Targetting.Targetter.targetExitsRange">targetExitsRange</h4>
+  <div class="markdown level1 summary"><p>Fires when a targetable exits the target collider</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action&lt;Targetable&gt; targetExitsRange</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Action</span>&lt;<span class="xref">Targetable</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

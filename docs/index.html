@@ -1,0 +1,125 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Tower Defense Game </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Tower Defense Game ">
+    <meta name="generator" content="docfx 2.58.9.0">
+    
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles/docfx.vendor.css">
+    <link rel="stylesheet" href="styles/docfx.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <meta property="docfx:navrel" content="toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="index.html">
+                <img id="logo" class="svg" src="logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        <div class="article row grid">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="tower-defense-game">Tower Defense Game</h1>
+
+<p>Group members: David Martinez, Harsh Patel, Alexander Djordjevic
+Due: November 4th 2021</p>
+<h2 id="abstract">Abstract:</h2>
+<p>To use informed search strategies, specifically A* search to create an AI that can defeat or challenge a player in a Tower Defense game. This type of game requires a player to place towers along multiple routes that defend the home base. The computer sends out waves of enemy agents whose goal is to destroy the player’s home base. By using an existing game template we can modify the enemy agent’s behavior to choose the optimal path to beat the player.</p>
+<p>#Goal: To implement a tower defense game with AI.</p>
+<h2 id="objectives">Objectives:</h2>
+<p>*For each agent, utilize a heuristic value based on several factors not just path length
+*Currently the template either linearly or randomly selects the next node for the agent to traverse.
+*User friendly
+*Executable file that can be run instead of cloning the git repository.
+*Implement the tower defense game using unity
+<em>Implement the A</em> algorithm using IronPython
+*Use sample templates to create and redesign the interface as needed</p>
+<h2 id="contribution-plan">Contribution Plan:</h2>
+<p><em>David Martinez - Setting up TD template. Configuring IronPython to enable the A</em> algorithm to be written in Python. Creating the OptimalNodeSelector class in C# and sending the necessary data for the A* algorithm to compute the optimal node. Updating the FlyingAgent and AttackingAgent to utilize the optimal node from the Python script containing the A* algorithm
+<em>Harsh Patel -  Work on implementing A</em> search in python to find the optimal node and path required to win the game for the AI agent.
+<em>Alexander Djordjevic - Help implementing the A</em> search algorithm and creating the executable file</p>
+<h2 id="class-diagram">Class Diagram:</h2>
+<p>This is the current state of the project using the Visual Studio Class Designer. The most relevant classes for our purpose of expanding the AI and explaining the overall game logic are kept.
+Logic to be updated is within the Agent class and NodeSelector class, specifically within the MoveToNode() function. Here we can control where the agent moves next based on the existing nodes defined within the environment. We will also need to create a new class called OptimalNodeSelector that inherits from the NodeSelector class to feed in the optimal node to the MoveToNode() method.</p>
+<p><img src="/images/td_uml.png" alt="supposed to be a uml diagram here"></p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/dizzi10/tower-defense/blob/main/docfx_project/index.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="styles/docfx.js"></script>
+    <script type="text/javascript" src="styles/main.js"></script>
+  </body>
+</html>

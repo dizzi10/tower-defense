@@ -1,0 +1,1608 @@
+{
+  "homepages": [],
+  "source_base_path": "D:/Users/David/Documents/Unity/TowerDefense/docfx_project",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.Affectors.Affector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.Affectors.Affector.html",
+          "hash": "koKKGsGNAkXa2O/iQxZIg4SInOrlvOLzjQkawQJIZG0="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.Affectors.AttackAffector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.Affectors.AttackAffector.html",
+          "hash": "M/ZJpjGANnEDWmb3h6RuEHc2eEYKSmpp11XvlwVGJ2U="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.Affectors.CurrencyAffector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.Affectors.CurrencyAffector.html",
+          "hash": "uaANRq4NwC+XAxM10mtNwyhQIYiREGCMysPw7fBIcwU="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.Affectors.Filter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.Affectors.Filter.html",
+          "hash": "qJbheNi2rcMdnKGWTVtRkzeVj5LZnbCHo/Sktyqg9f8="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.Affectors.PassiveAffector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.Affectors.PassiveAffector.html",
+          "hash": "6UWy+djmnndU+ScXE9p6KK6Ws6ZCSXSBqpuvO9JEhzU="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.Affectors.SlowAffector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.Affectors.SlowAffector.html",
+          "hash": "yQSWRMimDbCznt6olzT3wEAGw5TvSp423hHo9dv3IVo="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.Affectors.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.Affectors.html",
+          "hash": "d5UxGm42VUy6WkJePxkwQG46QGjoIfXx8RWCtECnT28="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.Agents.Agent.State.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.Agents.Agent.State.html",
+          "hash": "tk24wyf6KjoQDD2NTDtidcbTwhNRCHtPLablx1ImOZU="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.Agents.Agent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.Agents.Agent.html",
+          "hash": "LRnpZGUE+wfYhn+JcFcB2qOqCU2pbqUh9tuHoHcWYqg="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.Agents.AgentEffect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.Agents.AgentEffect.html",
+          "hash": "tphTTaENGsITRoVSu4JgeTvMVwpBK12cP3PxLwHaknU="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.Agents.AgentSlower.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.Agents.AgentSlower.html",
+          "hash": "6CuDnTMmfK4nI6GFVDqvOBRNo55GTBmzW3KUGowJkeA="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.Agents.AttackingAgent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.Agents.AttackingAgent.html",
+          "hash": "EtIqReiH376YY2vIB1dtGBUqHS74GEMgg79nowJp4p0="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.Agents.Data.AgentConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.Agents.Data.AgentConfiguration.html",
+          "hash": "EjRmbHFK9C58ZjhHgTi63MMjR4CTzYcEo0jpxYVB7e0="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.Agents.Data.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.Agents.Data.html",
+          "hash": "Dq1/z7CH40wbAK5EQuZcEptfbTKj+tsRTXR8RKBzEI4="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.Agents.FlyingAgent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.Agents.FlyingAgent.html",
+          "hash": "fDv7jDTALqhkDG+axFRJ9eVKDTmOpjWS0oxdEMNaD18="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.Agents.HomeBaseAttacker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.Agents.HomeBaseAttacker.html",
+          "hash": "Ybzn1spbuNJuxn9XMWop0c2Ph35nQkTDAjllAkNkBsk="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.Agents.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.Agents.html",
+          "hash": "ln1Ji58KRMPZXqjMD7fWxLC96UskwD0kT40oV3pN2tQ="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.Cameras.PostProcessorConfigurationSelector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.Cameras.PostProcessorConfigurationSelector.html",
+          "hash": "RJfgOxBCvzmjEAcyqoSZsQ3cDELiQ7dit0oyz8h2Yvk="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.Cameras.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.Cameras.html",
+          "hash": "3NYiCfM264GQxhE6IVE6Dfft9R5KuRJ/sTy3dDGSHBI="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.Economy.CurrencyChangeInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.Economy.CurrencyChangeInfo.html",
+          "hash": "Df9CBpesYo/qqfUKZb810lbvs6hwjEubxJ6ik3vXnoE="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.Economy.CurrencyGainer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.Economy.CurrencyGainer.html",
+          "hash": "t3+cHp+eZ7cScOZH/sc2q6phZEIUDcOSLeVbuT5ibkc="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.Economy.LootDrop.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.Economy.LootDrop.html",
+          "hash": "cDUM6DNVehsvZ8oqlzD7Tu2YKnhSWweBMZp11AG2LS0="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.Economy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.Economy.html",
+          "hash": "j6BXWbU9Fm9TdcuAEsWt2Dwch/wStP9ieC3+DeOYiiA="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.Effects.MobileParticleSelector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.Effects.MobileParticleSelector.html",
+          "hash": "WJOUYIRYItxqzECg3ftwtZHkxR7UdOJnB9+QpzHIk6U="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.Effects.ProjectileEffect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.Effects.ProjectileEffect.html",
+          "hash": "tsjbRtG7d2xkY94An4qyWfl32SiD5KrodRyr9kP31kw="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.Effects.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.Effects.html",
+          "hash": "m+SpKA+SBblVnF54qyzoiOdxXqYSaBF4ZK0OswGL4Fs="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.Game.GameDataStore.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.Game.GameDataStore.html",
+          "hash": "IZpLrUWPbN7apdhxsUT+zVJ75ZtJXRg2BvjxTygg/eY="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.Game.GameManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.Game.GameManager.html",
+          "hash": "5sllRrbpiSoIIKofrAne4R1vKJTnKmW+D946dKqo7XM="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.Game.LevelSaveData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.Game.LevelSaveData.html",
+          "hash": "sl5tPfT5RgGEbbm9Hik8EXAFGk5GIXCP7MOCvrJGGzM="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.Game.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.Game.html",
+          "hash": "W5qkvpH4d1IvF96d16LodDuZeuBWCrthhyKfIX5Wnjk="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.Input.TowerDefenseKeyboardMouseInput.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.Input.TowerDefenseKeyboardMouseInput.html",
+          "hash": "2LIg74TGAdmQwyfSMcIPxT0P63wuWOliaD+N2oHbeB8="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.Input.TowerDefenseTouchInput.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.Input.TowerDefenseTouchInput.html",
+          "hash": "f4cUYs1u4YQk9yThIixY7khcTQ+PHIeQ7NuuxQxJsrM="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.Input.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.Input.html",
+          "hash": "yKrWNEAbX13BUMKvYp3a/2Df0x82l29xHFXgT8+gn8s="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.Level.Editor.WaveEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.Level.Editor.WaveEditor.html",
+          "hash": "71mOuH9GMka9pKyFQa2cUvYl4a1wl1Eps2EIKUbuCj4="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.Level.Editor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.Level.Editor.html",
+          "hash": "LpjdKHRsBCGixOdOw5kxvCkiKMquQilkBqOwEtx4Jog="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.Level.LevelIntro.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.Level.LevelIntro.html",
+          "hash": "4oryGFrHuGrbwGMjbbtWV4T001i63POy43ZOlablhOo="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.Level.LevelManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.Level.LevelManager.html",
+          "hash": "UTI++x8l0fUoq+hFzWPzl14IDJ/2r9RhGTOomjjNugY="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.Level.LevelState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.Level.LevelState.html",
+          "hash": "lKl/zzLeY3tB20zT52xJqJrGeyEYYqs66gDgPyOUklA="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.Level.PlayerHomeBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.Level.PlayerHomeBase.html",
+          "hash": "itA7nm3BjtOdKrU2S+g6r1HpUS1BX1Oe2TyFywe3Ly8="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.Level.SpawnInstruction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.Level.SpawnInstruction.html",
+          "hash": "iJKnSjqjMNtA+TuTNGJXRcgkQreuH7cF+O7T5dJrzY8="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.Level.TimedLevelIntro.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.Level.TimedLevelIntro.html",
+          "hash": "c/ZKa6vSbMUpX9yKSilvBjWUn8d91CR2v8OADymYNUo="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.Level.TimedWave.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.Level.TimedWave.html",
+          "hash": "EBzzWKCqGcbGRo0i4Z0xT9+muF1+obiEWIVg21roAZo="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.Level.Wave.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.Level.Wave.html",
+          "hash": "HE/IV0Q90FpbV1pGEUKC0GLdtCP9zsqENGoUzamvVag="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.Level.WaveManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.Level.WaveManager.html",
+          "hash": "pJKP1lQ+FogmHAGw5/DLx28Lz+HcYt9dOB/Hsno8/oQ="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.Level.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.Level.html",
+          "hash": "+j5FfLVF5/WvKx1jttI1JhxB3/4jnQ9GeTG3Nr4ppQM="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.MeshCreator.AreaMeshCreator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.MeshCreator.AreaMeshCreator.html",
+          "hash": "dPRnXbQeKmwDiBSl+F39Lz60lMFng+jVqXUaCI5wKV8="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.MeshCreator.Editor.AreaMeshCreatorEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.MeshCreator.Editor.AreaMeshCreatorEditor.html",
+          "hash": "HCwijom2rYikf2Y/8OpOQUlQIBKFQK6P5jt4G0jnHnU="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.MeshCreator.Editor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.MeshCreator.Editor.html",
+          "hash": "rOW7cfNghlqXupjWBwcLh/CiT6w74jygHmmW91LupZU="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.MeshCreator.MeshObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.MeshCreator.MeshObject.html",
+          "hash": "Bmj4hVUAvpvN3AfQrp9vMDp6Moic+74Dz4S3+aTxL9o="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.MeshCreator.Triangle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.MeshCreator.Triangle.html",
+          "hash": "IBYBkQpPBTi5+wl02A6ECB1NbyFVfX/z5kpjxlX0/NM="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.MeshCreator.Triangulator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.MeshCreator.Triangulator.html",
+          "hash": "WNvisQ4dK4EjxJZhJ6+ufVcZvWn8Xo3P9XunOS4EliA="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.MeshCreator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.MeshCreator.html",
+          "hash": "FyLA3nJOnCuCoelaaI2z/fexT4Qn8bkKAtqDdILBO/o="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.Nodes.Editor.NodeEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.Nodes.Editor.NodeEditor.html",
+          "hash": "Ezo4lWvrp8Dh/ggbKXgmZdpX2tJWMncQrnRD44nRfu0="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.Nodes.Editor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.Nodes.Editor.html",
+          "hash": "2/KVtPt5N+da9OWi0OMlGCKZC8urH9xRnuqDsXxA97g="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.Nodes.FixedNodeSelector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.Nodes.FixedNodeSelector.html",
+          "hash": "p0FIFf+5lHlTqslh0uAcbGBUU1gHMmXxQpVirU3bOrM="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.Nodes.Node.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.Nodes.Node.html",
+          "hash": "L79IJf7oH6ftGctz0SWkUZ142yncc8q1UyUR3taZGIM="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.Nodes.NodeSelector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.Nodes.NodeSelector.html",
+          "hash": "hDovwJXGGSEOIs24X5uB1mWSBve+277R4UWKyPaLWig="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.Nodes.RandomNodeSelector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.Nodes.RandomNodeSelector.html",
+          "hash": "xbG39lhy5PgFSbmmmZRAawo/LmIGJIHjUVOjr+hRh0M="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.Nodes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.Nodes.html",
+          "hash": "rp1wOcFbSWH1mdW7pSyT/K9yY432jfq8NFVNYr6DX74="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.Targetting.Editor.TargetterEditor.TargetterCollider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.Targetting.Editor.TargetterEditor.TargetterCollider.html",
+          "hash": "n5Olx7emlRBx51a2dyumv8lRQIWzc5buf6sgQ1TIlhw="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.Targetting.Editor.TargetterEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.Targetting.Editor.TargetterEditor.html",
+          "hash": "D+2OCANt8pCTODP0pixdTV9yEL00KA5MfovyIyYNn6I="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.Targetting.Editor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.Targetting.Editor.html",
+          "hash": "84PiKfnJ4q6KfwRJ6uSeH2ZiEAKFQ0t4iRM3681FFZM="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.Targetting.Targetter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.Targetting.Targetter.html",
+          "hash": "YlzzaX9+O9OewbFJJSgGe4dKcWpdD7aipUNax1ZxvRM="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.Targetting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.Targetting.html",
+          "hash": "K24+zkL2Kug00Z48gnG0xUwWiGXO20Gd6oP5xAaIwaU="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.Towers.Data.TowerLevelData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.Towers.Data.TowerLevelData.html",
+          "hash": "OAhdpbYPK0SQ8vYKRchhFd5rQsP8lk08JaJnDGXYKYo="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.Towers.Data.TowerLibrary.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.Towers.Data.TowerLibrary.html",
+          "hash": "A4k5D0wz+dJpFu/mKYxgUoubLwVV6YbLSwPgZY4moII="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.Towers.Data.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.Towers.Data.html",
+          "hash": "UcwlIEiKcEKriTRAj8DrsRWTGxx92QPnTi1Y0EXPEgU="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.Towers.ILauncher.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.Towers.ILauncher.html",
+          "hash": "kx7b6tZFhGwRfLzwvo1R0OB8iBAKAZGsDZlfBZ2jz3M="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.Towers.ITowerRadiusProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.Towers.ITowerRadiusProvider.html",
+          "hash": "TaEleW58wUVlOYq8n4M+Y0F5MU/LgoZSjk7iIounamA="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.Towers.Placement.IPlacementArea.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.Towers.Placement.IPlacementArea.html",
+          "hash": "a0a0zwh8ITCh1pQ9h78ojRoCUp/mb6vGRuNZCPfT6g8="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.Towers.Placement.PlacementAreaExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.Towers.Placement.PlacementAreaExtensions.html",
+          "hash": "bOraqbJBHHKoKyy9dKQ2oTGy3xgDDhfp42Lg6dieI3w="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.Towers.Placement.SingleTowerPlacementArea.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.Towers.Placement.SingleTowerPlacementArea.html",
+          "hash": "9tfivviRQN+hoUi1NHLhshr6LgoEPLiKMLfzshpi4pQ="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.Towers.Placement.TowerFitStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.Towers.Placement.TowerFitStatus.html",
+          "hash": "w2IvWbfL3HL0KZzGXDtImtbOqFBtz51T+UceeEYH9yU="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.Towers.Placement.TowerPlacementGrid.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.Towers.Placement.TowerPlacementGrid.html",
+          "hash": "xyh1E3jtJAtXnRkFw3vcF3tdxRBmOuJXUYRdEXAmtYw="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.Towers.Placement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.Towers.Placement.html",
+          "hash": "C4PhTBYODT37kCRUo72kSoGQ5CEuIOB7Bc/Idxq3vUc="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.Towers.Projectiles.ContactDestroyer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.Towers.Projectiles.ContactDestroyer.html",
+          "hash": "ZdUG+eirPiTr3zRjm3ZaK6njC7gOODmjIbrtJr/d0bI="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.Towers.Projectiles.HitscanAttack.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.Towers.Projectiles.HitscanAttack.html",
+          "hash": "VnBiGfbeRp+6hyVOSgwiTqhh8gCL8O/GUR8bjLkGCWc="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.Towers.Projectiles.SplashDamager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.Towers.Projectiles.SplashDamager.html",
+          "hash": "r22RkD2/nj0Nx0KNTRdI81NxZu0OKGK3OdCf/MDKlf4="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.Towers.Projectiles.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.Towers.Projectiles.html",
+          "hash": "BKRyJyy/KUIDLtBNbtZwTGZFT4ELubdqscXxwYunnG4="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.Towers.SelfDestroyTimer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.Towers.SelfDestroyTimer.html",
+          "hash": "jY6DVHMf/enXBtcWUsdOgG8t04ph5wUeNXe41Vo+hA4="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.Towers.Tower.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.Towers.Tower.html",
+          "hash": "6QE5F0+K974XWaxB7AbLmg3Ur6H6+1K3mdmOUu8M9qc="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.Towers.TowerLaunchers.BallisticLauncher.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.Towers.TowerLaunchers.BallisticLauncher.html",
+          "hash": "tYr56BRhn1l2jxwxD6xtNvnJnwc8Cg03ebq/3K5ftBY="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.Towers.TowerLaunchers.HitscanLauncher.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.Towers.TowerLaunchers.HitscanLauncher.html",
+          "hash": "BPxYcQ2co3Zs5NLU3ykXMucpDxpv8BVEFR/lRNatlkM="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.Towers.TowerLaunchers.HomingLauncher.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.Towers.TowerLaunchers.HomingLauncher.html",
+          "hash": "JJHxHT1XaMYD+ko44XEaa92UK1pgmARofP0EziXO0MM="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.Towers.TowerLaunchers.Launcher.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.Towers.TowerLaunchers.Launcher.html",
+          "hash": "7BJ3cZCoVYoupBxZVEgN5e5OIzfphmioKkBMV6CBYrs="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.Towers.TowerLaunchers.SuperTowerLauncher.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.Towers.TowerLaunchers.SuperTowerLauncher.html",
+          "hash": "6c4mvTYzp1KPnnxN02BOUj1uKk1Xe0BkYCE29i1SARA="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.Towers.TowerLaunchers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.Towers.TowerLaunchers.html",
+          "hash": "OGdA9n75dexlsZDMMPHsDEZINMsrHflODPVc8KNeA7s="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.Towers.TowerLevel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.Towers.TowerLevel.html",
+          "hash": "DEdkUnk+WseL/3OC6RSVTKM5Jf3ixO85fWoS2d0sRVw="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.Towers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.Towers.html",
+          "hash": "Nb8yaeDY3eYIPcKIIdCA+IHfaUUlKSICKLTbNcPLHIs="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.UI.EndGameScreen.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.UI.EndGameScreen.html",
+          "hash": "HSNlK7babsRW3ghTE8+vfXTatDvtLLfpxINLfyDfeHs="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.UI.ExitButton.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.UI.ExitButton.html",
+          "hash": "jbCLyc/w6BYk2XJvVeqd25MthZni+ZR935fS74GTWjw="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.UI.HUD.BuildInfoUI.AnimationState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.UI.HUD.BuildInfoUI.AnimationState.html",
+          "hash": "d/TB9btKjkvqiC9I2Rylye+mV1cl/2MTw66gB1ojpFw="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.UI.HUD.BuildInfoUI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.UI.HUD.BuildInfoUI.html",
+          "hash": "/w6dX286SSzxzRjKTvButcaNWssTkINVAKmpbn1hn4Y="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.UI.HUD.BuildSidebar.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.UI.HUD.BuildSidebar.html",
+          "hash": "yZ/Sk3mvqTZVmuOSvL1A+IBzjdVOvbSQm9azQ9WiHxk="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.UI.HUD.CurrencyUI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.UI.HUD.CurrencyUI.html",
+          "hash": "eKi8QBkXC2FX4KNr0wmcIY78M9/35Ak1lERvM5iK0Bo="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.UI.HUD.GameUI.State.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.UI.HUD.GameUI.State.html",
+          "hash": "SHScXukC87Lk2pDIzp8ilOUqtriwLeGXC3FhcO6QFt4="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.UI.HUD.GameUI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.UI.HUD.GameUI.html",
+          "hash": "RIXC8l83q16gbWjK+YRYbhxYWZScWDVNbDKkhYj/fKo="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.UI.HUD.PlacementTile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.UI.HUD.PlacementTile.html",
+          "hash": "gd2YekObHhvKLpb9FfmZjCgTtr6CPlmBXIW0WgliNLU="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.UI.HUD.PlacementTileState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.UI.HUD.PlacementTileState.html",
+          "hash": "+GbEqBX3m+VSnqIbUWGAFLi+4vPHJyd+2mYAOBcJXpc="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.UI.HUD.PlayerBaseHealth.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.UI.HUD.PlayerBaseHealth.html",
+          "hash": "AUwpy4cjuPcotnScgjXmavEO0EkKRyrQkSC2ftGpqs0="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.UI.HUD.TowerDefenseMainMenu.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.UI.HUD.TowerDefenseMainMenu.html",
+          "hash": "1tT7hv5eq0ZtnsFjlJ7Ti3pVy2rFtwRJ/unNKF9yAYA="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.UI.HUD.TowerInfoDisplay.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.UI.HUD.TowerInfoDisplay.html",
+          "hash": "RhsvHPW+SnWT7yKU/XLJ0ADa5f9ozPsDcEoHswLD+Ig="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.UI.HUD.TowerPlacementGhost.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.UI.HUD.TowerPlacementGhost.html",
+          "hash": "naPeolaYUcMwihdR+ek51lK6iJQGOhgGei00lrxB3YU="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.UI.HUD.TowerSpawnButton.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.UI.HUD.TowerSpawnButton.html",
+          "hash": "ChQkPEQtBg38eejXbDYXnQFhbhSbUGt6TU2Ofx+IPHE="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.UI.HUD.TowerUI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.UI.HUD.TowerUI.html",
+          "hash": "y2SjSzujzyyiwEcGiR9dZ2xrr65+q2EVeThH0hix05M="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.UI.HUD.UIPointer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.UI.HUD.UIPointer.html",
+          "hash": "oZGwERc5boo3Bl7pDE3YkdEKnY46ncpnoYtl2n4xgVo="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.UI.HUD.WaveUI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.UI.HUD.WaveUI.html",
+          "hash": "oRucsVRr0o0uLZyth7Fmubh/Wmve0UbAiXmsioHibqs="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.UI.HUD.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.UI.HUD.html",
+          "hash": "kunxYQBceq8NWM2fHfIX+KieE/xX6ZAzHUW2Qs30CmU="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.UI.IntervalParticleSystemPlayer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.UI.IntervalParticleSystemPlayer.html",
+          "hash": "Z1hb4G3FGZHuMfDLL4FoR/o0MmcFLY8oVYxy9eCV7Oo="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.UI.LevelSelectButton.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.UI.LevelSelectButton.html",
+          "hash": "RAIaUmTOCegTCzPoRsOI85DhqO6DRzhKBA+bAxNoRVk="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.UI.LevelSelectScreen.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.UI.LevelSelectScreen.html",
+          "hash": "rJ8mSZ4VJrEzfINLl9dfCknFmrYSuOS2V4GsXYgZAzc="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.UI.MouseScroll.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.UI.MouseScroll.html",
+          "hash": "7+1a1nPsZFSK4KX1ar//TOfG7lvNq/W3cEhh25Pp1pU="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.UI.MovingCanvas.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.UI.MovingCanvas.html",
+          "hash": "AfoaFuc4diGxJqEsQ5+lNgJzAgpTOXlzNiTYbSOMI9o="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.UI.OptionsMenu.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.UI.OptionsMenu.html",
+          "hash": "2QvyLUcyPm1kfD5ILUe0dxfGfZYBn5EexgASx378Xmo="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.UI.PauseMenu.State.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.UI.PauseMenu.State.html",
+          "hash": "VEWa3DTeqRDlWv6Oqi4lOReaEBvKbPA31S5iiv+WyWk="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.UI.PauseMenu.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.UI.PauseMenu.html",
+          "hash": "5bfU4V2mn393yWTlhMwtBQH9wo/NiSL1bEHd9V6nkxw="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.UI.PlayAnimation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.UI.PlayAnimation.html",
+          "hash": "CVToCRD+FGP7zGuAdIF3hGkdvDatX7G9yIn7L2SRmIo="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.UI.RadiusVisualizerController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.UI.RadiusVisualizerController.html",
+          "hash": "VfCxRDF+OpwxRqWV+CQrgxjYfSiaqzEl2Ck2x9LnSnc="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.UI.Rotator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.UI.Rotator.html",
+          "hash": "YX70fK2zpkTl09xnJZGhj116HRqEyYJOUXNE43Ig8+Y="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.UI.SceneLoader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.UI.SceneLoader.html",
+          "hash": "Tp7JuOTyMN3Fzbf6sElhvwXCU7+E9ALGWKayQP7JHGQ="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.UI.ScorePanel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.UI.ScorePanel.html",
+          "hash": "Ztp08lFqDLyPaO1pIGM0Ohho8VdQK3PC/YwBYK0Mr0k="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.UI.TowerDefenseInputSchemeSwitcher.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.UI.TowerDefenseInputSchemeSwitcher.html",
+          "hash": "2lGPHzeGYPt6zegZ0ouP/+dpfUrCQAjrStKSRu2FoxU="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.UI.UrlOpen.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.UI.UrlOpen.html",
+          "hash": "CS++Rl8bLiYIyktPYneQCIgkWjR0z8k+oEKXfaK8tn8="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TowerDefense.UI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TowerDefense.UI.html",
+          "hash": "b2K/W9oT00v5M6B6KaXCVZkVBUWpAd0dxzAo00Fy+jU="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "MZf1oTdZuvWZSXFa+s6G2lRYVMndFEohrGuHr8beGCI="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "KthpMe1g6lIn1K4BF8V9OFYwluabC9e/GljnCFnqlh0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/td_uml.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/td_uml.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "sbZp4VunoghUzoOQq1yT4iwIFOOcMIos+WfsQnC8+a0="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "h44BL+k3mfHlQoPzLfIcTO2dwgypIc0r7JF1Qi53MZc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": true,
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 2,
+          "skipped_file_count": 2
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 124,
+          "skipped_file_count": 124
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": true,
+        "details": "Can support incremental post processing.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

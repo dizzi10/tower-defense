@@ -1,0 +1,581 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class AreaMeshCreatorEditor
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class AreaMeshCreatorEditor
+   ">
+    <meta name="generator" content="docfx 2.58.9.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="TowerDefense.MeshCreator.Editor.AreaMeshCreatorEditor">
+  
+  
+  <h1 id="TowerDefense_MeshCreator_Editor_AreaMeshCreatorEditor" data-uid="TowerDefense.MeshCreator.Editor.AreaMeshCreatorEditor" class="text-break">Class AreaMeshCreatorEditor
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">AreaMeshCreatorEditor</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="TowerDefense.MeshCreator.Editor.html">TowerDefense.MeshCreator.Editor</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="TowerDefense_MeshCreator_Editor_AreaMeshCreatorEditor_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class AreaMeshCreatorEditor : UnityEditor.Editor</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="TowerDefense_MeshCreator_Editor_AreaMeshCreatorEditor_m_AreaMeshCreator" data-uid="TowerDefense.MeshCreator.Editor.AreaMeshCreatorEditor.m_AreaMeshCreator">m_AreaMeshCreator</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected AreaMeshCreator m_AreaMeshCreator</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TowerDefense.MeshCreator.AreaMeshCreator.html">AreaMeshCreator</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TowerDefense_MeshCreator_Editor_AreaMeshCreatorEditor_m_CurrentMeshObject" data-uid="TowerDefense.MeshCreator.Editor.AreaMeshCreatorEditor.m_CurrentMeshObject">m_CurrentMeshObject</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected MeshObject m_CurrentMeshObject</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TowerDefense.MeshCreator.MeshObject.html">MeshObject</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TowerDefense_MeshCreator_Editor_AreaMeshCreatorEditor_m_OctagonRadius" data-uid="TowerDefense.MeshCreator.Editor.AreaMeshCreatorEditor.m_OctagonRadius">m_OctagonRadius</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected float m_OctagonRadius</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TowerDefense_MeshCreator_Editor_AreaMeshCreatorEditor_m_SquareSideLength" data-uid="TowerDefense.MeshCreator.Editor.AreaMeshCreatorEditor.m_SquareSideLength">m_SquareSideLength</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected float m_SquareSideLength</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="TowerDefense_MeshCreator_Editor_AreaMeshCreatorEditor_AddPoint_" data-uid="TowerDefense.MeshCreator.Editor.AreaMeshCreatorEditor.AddPoint*"></a>
+  <h4 id="TowerDefense_MeshCreator_Editor_AreaMeshCreatorEditor_AddPoint_Transform_Transform_" data-uid="TowerDefense.MeshCreator.Editor.AreaMeshCreatorEditor.AddPoint(Transform,Transform)">AddPoint(Transform, Transform)</h4>
+  <div class="markdown level1 summary"><p>Adds a new point at the midpoint of 2 other points</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void AddPoint(Transform point1, Transform point2)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Transform</span></td>
+        <td><span class="parametername">point1</span></td>
+        <td><p>First point</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Transform</span></td>
+        <td><span class="parametername">point2</span></td>
+        <td><p>Second point</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TowerDefense_MeshCreator_Editor_AreaMeshCreatorEditor_ClearCurrentPoints_" data-uid="TowerDefense.MeshCreator.Editor.AreaMeshCreatorEditor.ClearCurrentPoints*"></a>
+  <h4 id="TowerDefense_MeshCreator_Editor_AreaMeshCreatorEditor_ClearCurrentPoints" data-uid="TowerDefense.MeshCreator.Editor.AreaMeshCreatorEditor.ClearCurrentPoints">ClearCurrentPoints()</h4>
+  <div class="markdown level1 summary"><p>Destroys the current points in the mesh</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void ClearCurrentPoints()</code></pre>
+  </div>
+  
+  
+  <a id="TowerDefense_MeshCreator_Editor_AreaMeshCreatorEditor_CreateMesh_" data-uid="TowerDefense.MeshCreator.Editor.AreaMeshCreatorEditor.CreateMesh*"></a>
+  <h4 id="TowerDefense_MeshCreator_Editor_AreaMeshCreatorEditor_CreateMesh" data-uid="TowerDefense.MeshCreator.Editor.AreaMeshCreatorEditor.CreateMesh">CreateMesh()</h4>
+  <div class="markdown level1 summary"><p>Creates the mesh from the points currently in the mesh creator</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void CreateMesh()</code></pre>
+  </div>
+  
+  
+  <a id="TowerDefense_MeshCreator_Editor_AreaMeshCreatorEditor_CreateNewPoint_" data-uid="TowerDefense.MeshCreator.Editor.AreaMeshCreatorEditor.CreateNewPoint*"></a>
+  <h4 id="TowerDefense_MeshCreator_Editor_AreaMeshCreatorEditor_CreateNewPoint_Vector3_" data-uid="TowerDefense.MeshCreator.Editor.AreaMeshCreatorEditor.CreateNewPoint(Vector3)">CreateNewPoint(Vector3)</h4>
+  <div class="markdown level1 summary"><p>Creates a new point at the specified position</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void CreateNewPoint(Vector3 position)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector3</span></td>
+        <td><span class="parametername">position</span></td>
+        <td><p>Position to create the point at</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TowerDefense_MeshCreator_Editor_AreaMeshCreatorEditor_DeletePoint_" data-uid="TowerDefense.MeshCreator.Editor.AreaMeshCreatorEditor.DeletePoint*"></a>
+  <h4 id="TowerDefense_MeshCreator_Editor_AreaMeshCreatorEditor_DeletePoint_Transform_" data-uid="TowerDefense.MeshCreator.Editor.AreaMeshCreatorEditor.DeletePoint(Transform)">DeletePoint(Transform)</h4>
+  <div class="markdown level1 summary"><p>Deletes the selected point Transform.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void DeletePoint(Transform point)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Transform</span></td>
+        <td><span class="parametername">point</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TowerDefense_MeshCreator_Editor_AreaMeshCreatorEditor_ForcePointsFlat_" data-uid="TowerDefense.MeshCreator.Editor.AreaMeshCreatorEditor.ForcePointsFlat*"></a>
+  <h4 id="TowerDefense_MeshCreator_Editor_AreaMeshCreatorEditor_ForcePointsFlat" data-uid="TowerDefense.MeshCreator.Editor.AreaMeshCreatorEditor.ForcePointsFlat">ForcePointsFlat()</h4>
+  <div class="markdown level1 summary"><p>Makes points coplanar</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void ForcePointsFlat()</code></pre>
+  </div>
+  
+  
+  <a id="TowerDefense_MeshCreator_Editor_AreaMeshCreatorEditor_GetClosestTwoPoints_" data-uid="TowerDefense.MeshCreator.Editor.AreaMeshCreatorEditor.GetClosestTwoPoints*"></a>
+  <h4 id="TowerDefense_MeshCreator_Editor_AreaMeshCreatorEditor_GetClosestTwoPoints_Vector3_" data-uid="TowerDefense.MeshCreator.Editor.AreaMeshCreatorEditor.GetClosestTwoPoints(Vector3)">GetClosestTwoPoints(Vector3)</h4>
+  <div class="markdown level1 summary"><p>Gets the 2 closest points to the specified (cursor) position</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Transform[] GetClosestTwoPoints(Vector3 position)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector3</span></td>
+        <td><span class="parametername">position</span></td>
+        <td><p>The position of the cursor</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Transform</span>[]</td>
+        <td><p>The 2 closest points to the cursor</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TowerDefense_MeshCreator_Editor_AreaMeshCreatorEditor_GetClosetsPoint_" data-uid="TowerDefense.MeshCreator.Editor.AreaMeshCreatorEditor.GetClosetsPoint*"></a>
+  <h4 id="TowerDefense_MeshCreator_Editor_AreaMeshCreatorEditor_GetClosetsPoint_Vector3_" data-uid="TowerDefense.MeshCreator.Editor.AreaMeshCreatorEditor.GetClosetsPoint(Vector3)">GetClosetsPoint(Vector3)</h4>
+  <div class="markdown level1 summary"><p>Finds the closest point to the specified (cursor) position</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Transform GetClosetsPoint(Vector3 position)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector3</span></td>
+        <td><span class="parametername">position</span></td>
+        <td><p>The position of the cursor</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Transform</span></td>
+        <td><p>The closest point to the cursor</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TowerDefense_MeshCreator_Editor_AreaMeshCreatorEditor_Midpoint_" data-uid="TowerDefense.MeshCreator.Editor.AreaMeshCreatorEditor.Midpoint*"></a>
+  <h4 id="TowerDefense_MeshCreator_Editor_AreaMeshCreatorEditor_Midpoint_Vector3_Vector3_" data-uid="TowerDefense.MeshCreator.Editor.AreaMeshCreatorEditor.Midpoint(Vector3,Vector3)">Midpoint(Vector3, Vector3)</h4>
+  <div class="markdown level1 summary"><p>Gets the midpoint between 2 Vector3's</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected static Vector3 Midpoint(Vector3 first, Vector3 last)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector3</span></td>
+        <td><span class="parametername">first</span></td>
+        <td><p>First point</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Vector3</span></td>
+        <td><span class="parametername">last</span></td>
+        <td><p>Last point</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TowerDefense_MeshCreator_Editor_AreaMeshCreatorEditor_OnEnable_" data-uid="TowerDefense.MeshCreator.Editor.AreaMeshCreatorEditor.OnEnable*"></a>
+  <h4 id="TowerDefense_MeshCreator_Editor_AreaMeshCreatorEditor_OnEnable" data-uid="TowerDefense.MeshCreator.Editor.AreaMeshCreatorEditor.OnEnable">OnEnable()</h4>
+  <div class="markdown level1 summary"><p>Recreates the mesh when this script becomes active</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void OnEnable()</code></pre>
+  </div>
+  
+  
+  <a id="TowerDefense_MeshCreator_Editor_AreaMeshCreatorEditor_OnInspectorGUI_" data-uid="TowerDefense.MeshCreator.Editor.AreaMeshCreatorEditor.OnInspectorGUI*"></a>
+  <h4 id="TowerDefense_MeshCreator_Editor_AreaMeshCreatorEditor_OnInspectorGUI" data-uid="TowerDefense.MeshCreator.Editor.AreaMeshCreatorEditor.OnInspectorGUI">OnInspectorGUI()</h4>
+  <div class="markdown level1 summary"><p>Inspector GUI</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void OnInspectorGUI()</code></pre>
+  </div>
+  
+  
+  <a id="TowerDefense_MeshCreator_Editor_AreaMeshCreatorEditor_OnSceneGUI_" data-uid="TowerDefense.MeshCreator.Editor.AreaMeshCreatorEditor.OnSceneGUI*"></a>
+  <h4 id="TowerDefense_MeshCreator_Editor_AreaMeshCreatorEditor_OnSceneGUI" data-uid="TowerDefense.MeshCreator.Editor.AreaMeshCreatorEditor.OnSceneGUI">OnSceneGUI()</h4>
+  <div class="markdown level1 summary"><p>Draws and handles input for manipulating the mesh in scene</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void OnSceneGUI()</code></pre>
+  </div>
+  
+  
+  <a id="TowerDefense_MeshCreator_Editor_AreaMeshCreatorEditor_SetOctagon_" data-uid="TowerDefense.MeshCreator.Editor.AreaMeshCreatorEditor.SetOctagon*"></a>
+  <h4 id="TowerDefense_MeshCreator_Editor_AreaMeshCreatorEditor_SetOctagon_System_Single_" data-uid="TowerDefense.MeshCreator.Editor.AreaMeshCreatorEditor.SetOctagon(System.Single)">SetOctagon(Single)</h4>
+  <div class="markdown level1 summary"><p>Creates an octagon</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void SetOctagon(float radius)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">radius</span></td>
+        <td><p>Radius of the Octagon</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TowerDefense_MeshCreator_Editor_AreaMeshCreatorEditor_SetSquare_" data-uid="TowerDefense.MeshCreator.Editor.AreaMeshCreatorEditor.SetSquare*"></a>
+  <h4 id="TowerDefense_MeshCreator_Editor_AreaMeshCreatorEditor_SetSquare_System_Single_" data-uid="TowerDefense.MeshCreator.Editor.AreaMeshCreatorEditor.SetSquare(System.Single)">SetSquare(Single)</h4>
+  <div class="markdown level1 summary"><p>Creates a basic square</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void SetSquare(float sideLength)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">sideLength</span></td>
+        <td><p>Length of the sides of the square</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

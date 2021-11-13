@@ -1,0 +1,691 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class Agent
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class Agent
+   ">
+    <meta name="generator" content="docfx 2.58.9.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="TowerDefense.Agents.Agent">
+  
+  
+  <h1 id="TowerDefense_Agents_Agent" data-uid="TowerDefense.Agents.Agent" class="text-break">Class Agent
+  </h1>
+  <div class="markdown level0 summary"><p>An agent will follow a path of nodes</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">Agent</span></div>
+      <div class="level2"><a class="xref" href="TowerDefense.Agents.AttackingAgent.html">AttackingAgent</a></div>
+      <div class="level2"><a class="xref" href="TowerDefense.Agents.FlyingAgent.html">FlyingAgent</a></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="TowerDefense.Agents.html">TowerDefense.Agents</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="TowerDefense_Agents_Agent_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract class Agent : Targetable</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="TowerDefense_Agents_Agent_appliedEffectOffset" data-uid="TowerDefense.Agents.Agent.appliedEffectOffset">appliedEffectOffset</h4>
+  <div class="markdown level1 summary"><p>Position offset for an applied affect</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 appliedEffectOffset</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TowerDefense_Agents_Agent_appliedEffectScale" data-uid="TowerDefense.Agents.Agent.appliedEffectScale">appliedEffectScale</h4>
+  <div class="markdown level1 summary"><p>Scale adjustment for an applied affect</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float appliedEffectScale</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TowerDefense_Agents_Agent_m_CurrentNode" data-uid="TowerDefense.Agents.Agent.m_CurrentNode">m_CurrentNode</h4>
+  <div class="markdown level1 summary"><p>The Current node that the agent must navigate to</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Node m_CurrentNode</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Node</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TowerDefense_Agents_Agent_m_Destination" data-uid="TowerDefense.Agents.Agent.m_Destination">m_Destination</h4>
+  <div class="markdown level1 summary"><p>Stores the Destination to the next node so we don't need to get new random positions every time</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Vector3 m_Destination</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TowerDefense_Agents_Agent_m_LevelManager" data-uid="TowerDefense.Agents.Agent.m_LevelManager">m_LevelManager</h4>
+  <div class="markdown level1 summary"><p>Reference to the level manager</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected LevelManager m_LevelManager</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">LevelManager</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TowerDefense_Agents_Agent_m_NavMeshAgent" data-uid="TowerDefense.Agents.Agent.m_NavMeshAgent">m_NavMeshAgent</h4>
+  <div class="markdown level1 summary"><p>The NavMeshAgent component attached to this</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected NavMeshAgent m_NavMeshAgent</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">NavMeshAgent</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="TowerDefense_Agents_Agent_isAtDestination_" data-uid="TowerDefense.Agents.Agent.isAtDestination*"></a>
+  <h4 id="TowerDefense_Agents_Agent_isAtDestination" data-uid="TowerDefense.Agents.Agent.isAtDestination">isAtDestination</h4>
+  <div class="markdown level1 summary"><p>Is the Agent close enough to its destination?</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual bool isAtDestination { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TowerDefense_Agents_Agent_isPathBlocked_" data-uid="TowerDefense.Agents.Agent.isPathBlocked*"></a>
+  <h4 id="TowerDefense_Agents_Agent_isPathBlocked" data-uid="TowerDefense.Agents.Agent.isPathBlocked">isPathBlocked</h4>
+  <div class="markdown level1 summary"><p>Checks if the path is blocked</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual bool isPathBlocked { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>The status of the agent's path</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TowerDefense_Agents_Agent_navMeshMask_" data-uid="TowerDefense.Agents.Agent.navMeshMask*"></a>
+  <h4 id="TowerDefense_Agents_Agent_navMeshMask" data-uid="TowerDefense.Agents.Agent.navMeshMask">navMeshMask</h4>
+  <div class="markdown level1 summary"><p>The area mask of the attached nav mesh agent</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int navMeshMask { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TowerDefense_Agents_Agent_navMeshNavMeshAgent_" data-uid="TowerDefense.Agents.Agent.navMeshNavMeshAgent*"></a>
+  <h4 id="TowerDefense_Agents_Agent_navMeshNavMeshAgent" data-uid="TowerDefense.Agents.Agent.navMeshNavMeshAgent">navMeshNavMeshAgent</h4>
+  <div class="markdown level1 summary"><p>Accessor to <a class="xref" href="TowerDefense.Agents.Agent.html#TowerDefense_Agents_Agent_m_NavMeshAgent">m_NavMeshAgent</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NavMeshAgent navMeshNavMeshAgent { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">NavMeshAgent</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TowerDefense_Agents_Agent_originalMovementSpeed_" data-uid="TowerDefense.Agents.Agent.originalMovementSpeed*"></a>
+  <h4 id="TowerDefense_Agents_Agent_originalMovementSpeed" data-uid="TowerDefense.Agents.Agent.originalMovementSpeed">originalMovementSpeed</h4>
+  <div class="markdown level1 summary"><p>Gets this agent's original movement speed</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float originalMovementSpeed { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TowerDefense_Agents_Agent_state_" data-uid="TowerDefense.Agents.Agent.state*"></a>
+  <h4 id="TowerDefense_Agents_Agent_state" data-uid="TowerDefense.Agents.Agent.state">state</h4>
+  <div class="markdown level1 summary"><p>The current state of the agent along the path</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Agent.State state { get; protected set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TowerDefense.Agents.Agent.State.html">Agent.State</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TowerDefense_Agents_Agent_velocity_" data-uid="TowerDefense.Agents.Agent.velocity*"></a>
+  <h4 id="TowerDefense_Agents_Agent_velocity" data-uid="TowerDefense.Agents.Agent.velocity">velocity</h4>
+  <div class="markdown level1 summary"><p>Gets the attached nav mesh agent velocity</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override Vector3 velocity { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="TowerDefense_Agents_Agent_Awake_" data-uid="TowerDefense.Agents.Agent.Awake*"></a>
+  <h4 id="TowerDefense_Agents_Agent_Awake" data-uid="TowerDefense.Agents.Agent.Awake">Awake()</h4>
+  <div class="markdown level1 summary"><p>Lazy Load, if necesaary and ensure the NavMeshAgent is disabled</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void Awake()</code></pre>
+  </div>
+  
+  
+  <a id="TowerDefense_Agents_Agent_GetNextNode_" data-uid="TowerDefense.Agents.Agent.GetNextNode*"></a>
+  <h4 id="TowerDefense_Agents_Agent_GetNextNode_Node_" data-uid="TowerDefense.Agents.Agent.GetNextNode(Node)">GetNextNode(Node)</h4>
+  <div class="markdown level1 summary"><p>Finds the next node in the path</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void GetNextNode(Node currentlyEnteredNode)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Node</span></td>
+        <td><span class="parametername">currentlyEnteredNode</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TowerDefense_Agents_Agent_HandleDestinationReached_" data-uid="TowerDefense.Agents.Agent.HandleDestinationReached*"></a>
+  <h4 id="TowerDefense_Agents_Agent_HandleDestinationReached" data-uid="TowerDefense.Agents.Agent.HandleDestinationReached">HandleDestinationReached()</h4>
+  <div class="markdown level1 summary"><p>The logic for what happens when the destination is reached</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void HandleDestinationReached()</code></pre>
+  </div>
+  
+  
+  <a id="TowerDefense_Agents_Agent_Initialize_" data-uid="TowerDefense.Agents.Agent.Initialize*"></a>
+  <h4 id="TowerDefense_Agents_Agent_Initialize" data-uid="TowerDefense.Agents.Agent.Initialize">Initialize()</h4>
+  <div class="markdown level1 summary"><p>Setup all the necessary parameters for this agent from configuration data</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void Initialize()</code></pre>
+  </div>
+  
+  
+  <a id="TowerDefense_Agents_Agent_LazyLoad_" data-uid="TowerDefense.Agents.Agent.LazyLoad*"></a>
+  <h4 id="TowerDefense_Agents_Agent_LazyLoad" data-uid="TowerDefense.Agents.Agent.LazyLoad">LazyLoad()</h4>
+  <div class="markdown level1 summary"><p>This is a lazy way of caching several components utilised by the Agent</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void LazyLoad()</code></pre>
+  </div>
+  
+  
+  <a id="TowerDefense_Agents_Agent_MoveToNode_" data-uid="TowerDefense.Agents.Agent.MoveToNode*"></a>
+  <h4 id="TowerDefense_Agents_Agent_MoveToNode" data-uid="TowerDefense.Agents.Agent.MoveToNode">MoveToNode()</h4>
+  <div class="markdown level1 summary"><p>Moves the agent to a position in the <a class="xref" href="TowerDefense.Agents.Agent.html#TowerDefense_Agents_Agent_m_CurrentNode">m_CurrentNode</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void MoveToNode()</code></pre>
+  </div>
+  
+  
+  <a id="TowerDefense_Agents_Agent_NavigateTo_" data-uid="TowerDefense.Agents.Agent.NavigateTo*"></a>
+  <h4 id="TowerDefense_Agents_Agent_NavigateTo_Vector3_" data-uid="TowerDefense.Agents.Agent.NavigateTo(Vector3)">NavigateTo(Vector3)</h4>
+  <div class="markdown level1 summary"><p>Set the NavMeshAgent's destination</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void NavigateTo(Vector3 nextPoint)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector3</span></td>
+        <td><span class="parametername">nextPoint</span></td>
+        <td><p>The position to navigate to</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TowerDefense_Agents_Agent_OnCompletePathUpdate_" data-uid="TowerDefense.Agents.Agent.OnCompletePathUpdate*"></a>
+  <h4 id="TowerDefense_Agents_Agent_OnCompletePathUpdate" data-uid="TowerDefense.Agents.Agent.OnCompletePathUpdate">OnCompletePathUpdate()</h4>
+  <div class="markdown level1 summary"><p>Move along the path, change to <a class="xref" href="TowerDefense.Agents.Agent.State.html#TowerDefense_Agents_Agent_State_OnPartialPath">OnPartialPath</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnCompletePathUpdate()</code></pre>
+  </div>
+  
+  
+  <a id="TowerDefense_Agents_Agent_OnPartialPathUpdate_" data-uid="TowerDefense.Agents.Agent.OnPartialPathUpdate*"></a>
+  <h4 id="TowerDefense_Agents_Agent_OnPartialPathUpdate" data-uid="TowerDefense.Agents.Agent.OnPartialPathUpdate">OnPartialPathUpdate()</h4>
+  <div class="markdown level1 summary"><p>The behaviour for when the agent has been blocked</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected abstract void OnPartialPathUpdate()</code></pre>
+  </div>
+  
+  
+  <a id="TowerDefense_Agents_Agent_PathUpdate_" data-uid="TowerDefense.Agents.Agent.PathUpdate*"></a>
+  <h4 id="TowerDefense_Agents_Agent_PathUpdate" data-uid="TowerDefense.Agents.Agent.PathUpdate">PathUpdate()</h4>
+  <div class="markdown level1 summary"><p>Peforms the relevant path update</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected abstract void PathUpdate()</code></pre>
+  </div>
+  
+  
+  <a id="TowerDefense_Agents_Agent_Remove_" data-uid="TowerDefense.Agents.Agent.Remove*"></a>
+  <h4 id="TowerDefense_Agents_Agent_Remove" data-uid="TowerDefense.Agents.Agent.Remove">Remove()</h4>
+  <div class="markdown level1 summary"><p>Stops the navMeshAgent and attempts to return to pool</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Remove()</code></pre>
+  </div>
+  
+  
+  <a id="TowerDefense_Agents_Agent_SetNode_" data-uid="TowerDefense.Agents.Agent.SetNode*"></a>
+  <h4 id="TowerDefense_Agents_Agent_SetNode_Node_" data-uid="TowerDefense.Agents.Agent.SetNode(Node)">SetNode(Node)</h4>
+  <div class="markdown level1 summary"><p>Sets the node to navigate to</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void SetNode(Node node)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Node</span></td>
+        <td><span class="parametername">node</span></td>
+        <td><p>The node that the agent will navigate to</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TowerDefense_Agents_Agent_Update_" data-uid="TowerDefense.Agents.Agent.Update*"></a>
+  <h4 id="TowerDefense_Agents_Agent_Update" data-uid="TowerDefense.Agents.Agent.Update">Update()</h4>
+  <div class="markdown level1 summary"><p>Updates the agent in its different states,
+Reset destination when path is stale</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void Update()</code></pre>
+  </div>
+  <h3 id="events">Events
+  </h3>
+  
+  
+  <h4 id="TowerDefense_Agents_Agent_destinationReached" data-uid="TowerDefense.Agents.Agent.destinationReached">destinationReached</h4>
+  <div class="markdown level1 summary"><p>Event fired when agent reached its final node</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action&lt;Node&gt; destinationReached</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Action</span>&lt;<span class="xref">Node</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,422 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class SlowAffector
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class SlowAffector
+   ">
+    <meta name="generator" content="docfx 2.58.9.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="TowerDefense.Affectors.SlowAffector">
+  
+  
+  <h1 id="TowerDefense_Affectors_SlowAffector" data-uid="TowerDefense.Affectors.SlowAffector" class="text-break">Class SlowAffector
+  </h1>
+  <div class="markdown level0 summary"><p>Uses a trigger to attach and remove <see cref="!:AgentSlower"></see> components to agents</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="TowerDefense.Affectors.Affector.html">Affector</a></div>
+    <div class="level2"><a class="xref" href="TowerDefense.Affectors.PassiveAffector.html">PassiveAffector</a></div>
+    <div class="level3"><span class="xref">SlowAffector</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">ITowerRadiusProvider</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="TowerDefense.Affectors.PassiveAffector.html#TowerDefense_Affectors_PassiveAffector_radiusEffectColor">PassiveAffector.radiusEffectColor</a>
+    </div>
+    <div>
+      <a class="xref" href="TowerDefense.Affectors.PassiveAffector.html#TowerDefense_Affectors_PassiveAffector_towerTargetter">PassiveAffector.towerTargetter</a>
+    </div>
+    <div>
+      <a class="xref" href="TowerDefense.Affectors.PassiveAffector.html#TowerDefense_Affectors_PassiveAffector_effectRadius">PassiveAffector.effectRadius</a>
+    </div>
+    <div>
+      <a class="xref" href="TowerDefense.Affectors.PassiveAffector.html#TowerDefense_Affectors_PassiveAffector_effectColor">PassiveAffector.effectColor</a>
+    </div>
+    <div>
+      <a class="xref" href="TowerDefense.Affectors.PassiveAffector.html#TowerDefense_Affectors_PassiveAffector_targetter">PassiveAffector.targetter</a>
+    </div>
+    <div>
+      <a class="xref" href="TowerDefense.Affectors.Affector.html#TowerDefense_Affectors_Affector_description">Affector.description</a>
+    </div>
+    <div>
+      <a class="xref" href="TowerDefense.Affectors.Affector.html#TowerDefense_Affectors_Affector_alignment">Affector.alignment</a>
+    </div>
+    <div>
+      <a class="xref" href="TowerDefense.Affectors.Affector.html#TowerDefense_Affectors_Affector_enemyMask">Affector.enemyMask</a>
+    </div>
+    <div>
+      <a class="xref" href="TowerDefense.Affectors.Affector.html#TowerDefense_Affectors_Affector_Initialize_IAlignmentProvider_LayerMask_">Affector.Initialize(IAlignmentProvider, LayerMask)</a>
+    </div>
+    <div>
+      <a class="xref" href="TowerDefense.Affectors.Affector.html#TowerDefense_Affectors_Affector_Initialize_IAlignmentProvider_">Affector.Initialize(IAlignmentProvider)</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="TowerDefense.Affectors.html">TowerDefense.Affectors</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="TowerDefense_Affectors_SlowAffector_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class SlowAffector : PassiveAffector, ITowerRadiusProvider</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="TowerDefense_Affectors_SlowAffector_audioSource" data-uid="TowerDefense.Affectors.SlowAffector.audioSource">audioSource</h4>
+  <div class="markdown level1 summary"><p>The audio source that plays when an entity enters the sphere</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AudioSource audioSource</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">AudioSource</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TowerDefense_Affectors_SlowAffector_enterParticleSystem" data-uid="TowerDefense.Affectors.SlowAffector.enterParticleSystem">enterParticleSystem</h4>
+  <div class="markdown level1 summary"><p>The particle system that plays when an entity enters the sphere</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ParticleSystem enterParticleSystem</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ParticleSystem</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TowerDefense_Affectors_SlowAffector_slowFactor" data-uid="TowerDefense.Affectors.SlowAffector.slowFactor">slowFactor</h4>
+  <div class="markdown level1 summary"><p>A normalized value to slow agents by</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float slowFactor</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TowerDefense_Affectors_SlowAffector_slowFactorFormat" data-uid="TowerDefense.Affectors.SlowAffector.slowFactorFormat">slowFactorFormat</h4>
+  <div class="markdown level1 summary"><p>The slow factor for displaying to the UI</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string slowFactorFormat</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TowerDefense_Affectors_SlowAffector_slowFxPrefab" data-uid="TowerDefense.Affectors.SlowAffector.slowFxPrefab">slowFxPrefab</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GameObject slowFxPrefab</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GameObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="TowerDefense_Affectors_SlowAffector_AttachSlowComponent_" data-uid="TowerDefense.Affectors.SlowAffector.AttachSlowComponent*"></a>
+  <h4 id="TowerDefense_Affectors_SlowAffector_AttachSlowComponent_Agent_" data-uid="TowerDefense.Affectors.SlowAffector.AttachSlowComponent(Agent)">AttachSlowComponent(Agent)</h4>
+  <div class="markdown level1 summary"><p>Attaches a <see cref="!:AgentSlower"></see> to the agent</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void AttachSlowComponent(Agent target)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Agent</span></td>
+        <td><span class="parametername">target</span></td>
+        <td><p>The agent to attach the slower to</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TowerDefense_Affectors_SlowAffector_Awake_" data-uid="TowerDefense.Affectors.SlowAffector.Awake*"></a>
+  <h4 id="TowerDefense_Affectors_SlowAffector_Awake" data-uid="TowerDefense.Affectors.SlowAffector.Awake">Awake()</h4>
+  <div class="markdown level1 summary"><p>Subsribes to the relevant targetter events</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void Awake()</code></pre>
+  </div>
+  
+  
+  <a id="TowerDefense_Affectors_SlowAffector_OnTargetEntersRange_" data-uid="TowerDefense.Affectors.SlowAffector.OnTargetEntersRange*"></a>
+  <h4 id="TowerDefense_Affectors_SlowAffector_OnTargetEntersRange_Targetable_" data-uid="TowerDefense.Affectors.SlowAffector.OnTargetEntersRange(Targetable)">OnTargetEntersRange(Targetable)</h4>
+  <div class="markdown level1 summary"><p>Fired when the targetter aquires a new targetable</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void OnTargetEntersRange(Targetable other)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Targetable</span></td>
+        <td><span class="parametername">other</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TowerDefense_Affectors_SlowAffector_OnTargetExitsRange_" data-uid="TowerDefense.Affectors.SlowAffector.OnTargetExitsRange*"></a>
+  <h4 id="TowerDefense_Affectors_SlowAffector_OnTargetExitsRange_Targetable_" data-uid="TowerDefense.Affectors.SlowAffector.OnTargetExitsRange(Targetable)">OnTargetExitsRange(Targetable)</h4>
+  <div class="markdown level1 summary"><p>Fired when the targetter aquires loses a targetable</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void OnTargetExitsRange(Targetable other)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Targetable</span></td>
+        <td><span class="parametername">other</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TowerDefense_Affectors_SlowAffector_RemoveSlowComponent_" data-uid="TowerDefense.Affectors.SlowAffector.RemoveSlowComponent*"></a>
+  <h4 id="TowerDefense_Affectors_SlowAffector_RemoveSlowComponent_Agent_" data-uid="TowerDefense.Affectors.SlowAffector.RemoveSlowComponent(Agent)">RemoveSlowComponent(Agent)</h4>
+  <div class="markdown level1 summary"><p>Removes the <see cref="!:AgentSlower"></see> from the agent once it leaves the area</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void RemoveSlowComponent(Agent target)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Agent</span></td>
+        <td><span class="parametername">target</span></td>
+        <td><p>The agent to remove the slower from</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">ITowerRadiusProvider</span>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

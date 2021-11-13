@@ -1,0 +1,846 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class LevelManager
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class LevelManager
+   ">
+    <meta name="generator" content="docfx 2.58.9.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="TowerDefense.Level.LevelManager">
+  
+  
+  <h1 id="TowerDefense_Level_LevelManager" data-uid="TowerDefense.Level.LevelManager" class="text-break">Class LevelManager
+  </h1>
+  <div class="markdown level0 summary"><p>The level manager - handles the level states and tracks the player's currency</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">LevelManager</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="TowerDefense.Level.html">TowerDefense.Level</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="TowerDefense_Level_LevelManager_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class LevelManager : Singleton&lt;LevelManager&gt;</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="TowerDefense_Level_LevelManager_alwaysGainCurrency" data-uid="TowerDefense.Level.LevelManager.alwaysGainCurrency">alwaysGainCurrency</h4>
+  <div class="markdown level1 summary"><p>Configuration for if the player gains currency even in pre-build phase</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool alwaysGainCurrency</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TowerDefense_Level_LevelManager_currencyGainer" data-uid="TowerDefense.Level.LevelManager.currencyGainer">currencyGainer</h4>
+  <div class="markdown level1 summary"><p>The controller for gaining currency</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CurrencyGainer currencyGainer</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">CurrencyGainer</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TowerDefense_Level_LevelManager_environmentColliders" data-uid="TowerDefense.Level.LevelManager.environmentColliders">environmentColliders</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Collider[] environmentColliders</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Collider</span>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TowerDefense_Level_LevelManager_homeBases" data-uid="TowerDefense.Level.LevelManager.homeBases">homeBases</h4>
+  <div class="markdown level1 summary"><p>The home bases that the player must defend</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PlayerHomeBase[] homeBases</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TowerDefense.Level.PlayerHomeBase.html">PlayerHomeBase</a>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TowerDefense_Level_LevelManager_intro" data-uid="TowerDefense.Level.LevelManager.intro">intro</h4>
+  <div class="markdown level1 summary"><p>The configured level intro. If this is null the LevelManager will fall through to the gameplay state (i.e. SpawningEnemies)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public LevelIntro intro</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TowerDefense.Level.LevelIntro.html">LevelIntro</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TowerDefense_Level_LevelManager_startingCurrency" data-uid="TowerDefense.Level.LevelManager.startingCurrency">startingCurrency</h4>
+  <div class="markdown level1 summary"><p>The currency that the player starts with</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int startingCurrency</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TowerDefense_Level_LevelManager_towerLibrary" data-uid="TowerDefense.Level.LevelManager.towerLibrary">towerLibrary</h4>
+  <div class="markdown level1 summary"><p>The tower library for this level</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TowerLibrary towerLibrary</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TowerLibrary</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="TowerDefense_Level_LevelManager_currency_" data-uid="TowerDefense.Level.LevelManager.currency*"></a>
+  <h4 id="TowerDefense_Level_LevelManager_currency" data-uid="TowerDefense.Level.LevelManager.currency">currency</h4>
+  <div class="markdown level1 summary"><p>The currency controller</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Currency currency { get; protected set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Currency</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TowerDefense_Level_LevelManager_isGameOver_" data-uid="TowerDefense.Level.LevelManager.isGameOver*"></a>
+  <h4 id="TowerDefense_Level_LevelManager_isGameOver" data-uid="TowerDefense.Level.LevelManager.isGameOver">isGameOver</h4>
+  <div class="markdown level1 summary"><p>If the game is over</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool isGameOver { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TowerDefense_Level_LevelManager_levelState_" data-uid="TowerDefense.Level.LevelManager.levelState*"></a>
+  <h4 id="TowerDefense_Level_LevelManager_levelState" data-uid="TowerDefense.Level.LevelManager.levelState">levelState</h4>
+  <div class="markdown level1 summary"><p>The current state of the level</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public LevelState levelState { get; protected set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TowerDefense.Level.LevelState.html">LevelState</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TowerDefense_Level_LevelManager_numberOfEnemies_" data-uid="TowerDefense.Level.LevelManager.numberOfEnemies*"></a>
+  <h4 id="TowerDefense_Level_LevelManager_numberOfEnemies" data-uid="TowerDefense.Level.LevelManager.numberOfEnemies">numberOfEnemies</h4>
+  <div class="markdown level1 summary"><p>Number of enemies currently in the level</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int numberOfEnemies { get; protected set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TowerDefense_Level_LevelManager_numberOfHomeBases_" data-uid="TowerDefense.Level.LevelManager.numberOfHomeBases*"></a>
+  <h4 id="TowerDefense_Level_LevelManager_numberOfHomeBases" data-uid="TowerDefense.Level.LevelManager.numberOfHomeBases">numberOfHomeBases</h4>
+  <div class="markdown level1 summary"><p>Starting number of home bases</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int numberOfHomeBases { get; protected set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TowerDefense_Level_LevelManager_numberOfHomeBasesLeft_" data-uid="TowerDefense.Level.LevelManager.numberOfHomeBasesLeft*"></a>
+  <h4 id="TowerDefense_Level_LevelManager_numberOfHomeBasesLeft" data-uid="TowerDefense.Level.LevelManager.numberOfHomeBasesLeft">numberOfHomeBasesLeft</h4>
+  <div class="markdown level1 summary"><p>Number of home bases left</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int numberOfHomeBasesLeft { get; protected set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TowerDefense_Level_LevelManager_playerHomeBases_" data-uid="TowerDefense.Level.LevelManager.playerHomeBases*"></a>
+  <h4 id="TowerDefense_Level_LevelManager_playerHomeBases" data-uid="TowerDefense.Level.LevelManager.playerHomeBases">playerHomeBases</h4>
+  <div class="markdown level1 summary"><p>An accessor for the home bases</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PlayerHomeBase[] playerHomeBases { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TowerDefense.Level.PlayerHomeBase.html">PlayerHomeBase</a>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TowerDefense_Level_LevelManager_waveManager_" data-uid="TowerDefense.Level.LevelManager.waveManager*"></a>
+  <h4 id="TowerDefense_Level_LevelManager_waveManager" data-uid="TowerDefense.Level.LevelManager.waveManager">waveManager</h4>
+  <div class="markdown level1 summary"><p>The attached wave manager</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public WaveManager waveManager { get; protected set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TowerDefense.Level.WaveManager.html">WaveManager</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="TowerDefense_Level_LevelManager_Awake_" data-uid="TowerDefense.Level.LevelManager.Awake*"></a>
+  <h4 id="TowerDefense_Level_LevelManager_Awake" data-uid="TowerDefense.Level.LevelManager.Awake">Awake()</h4>
+  <div class="markdown level1 summary"><p>Caches the attached wave manager and subscribes to the spawning completed event
+Sets the level state to intro and ensures that the number of enemies is set to 0</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void Awake()</code></pre>
+  </div>
+  
+  
+  <a id="TowerDefense_Level_LevelManager_BuildingCompleted_" data-uid="TowerDefense.Level.LevelManager.BuildingCompleted*"></a>
+  <h4 id="TowerDefense_Level_LevelManager_BuildingCompleted" data-uid="TowerDefense.Level.LevelManager.BuildingCompleted">BuildingCompleted()</h4>
+  <div class="markdown level1 summary"><p>Completes building phase, setting state to spawn enemies</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void BuildingCompleted()</code></pre>
+  </div>
+  
+  
+  <a id="TowerDefense_Level_LevelManager_ChangeLevelState_" data-uid="TowerDefense.Level.LevelManager.ChangeLevelState*"></a>
+  <h4 id="TowerDefense_Level_LevelManager_ChangeLevelState_TowerDefense_Level_LevelState_" data-uid="TowerDefense.Level.LevelManager.ChangeLevelState(TowerDefense.Level.LevelState)">ChangeLevelState(LevelState)</h4>
+  <div class="markdown level1 summary"><p>Changes the state and broadcasts the event</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void ChangeLevelState(LevelState newState)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TowerDefense.Level.LevelState.html">LevelState</a></td>
+        <td><span class="parametername">newState</span></td>
+        <td><p>The new state to transitioned to</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TowerDefense_Level_LevelManager_DecrementNumberOfEnemies_" data-uid="TowerDefense.Level.LevelManager.DecrementNumberOfEnemies*"></a>
+  <h4 id="TowerDefense_Level_LevelManager_DecrementNumberOfEnemies" data-uid="TowerDefense.Level.LevelManager.DecrementNumberOfEnemies">DecrementNumberOfEnemies()</h4>
+  <div class="markdown level1 summary"><p>Decrements the number of enemies. Called on Agent death</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void DecrementNumberOfEnemies()</code></pre>
+  </div>
+  
+  
+  <a id="TowerDefense_Level_LevelManager_GetAllHomeBasesHealth_" data-uid="TowerDefense.Level.LevelManager.GetAllHomeBasesHealth*"></a>
+  <h4 id="TowerDefense_Level_LevelManager_GetAllHomeBasesHealth" data-uid="TowerDefense.Level.LevelManager.GetAllHomeBasesHealth">GetAllHomeBasesHealth()</h4>
+  <div class="markdown level1 summary"><p>Returns the sum of all HomeBases' health</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float GetAllHomeBasesHealth()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TowerDefense_Level_LevelManager_IncrementNumberOfEnemies_" data-uid="TowerDefense.Level.LevelManager.IncrementNumberOfEnemies*"></a>
+  <h4 id="TowerDefense_Level_LevelManager_IncrementNumberOfEnemies" data-uid="TowerDefense.Level.LevelManager.IncrementNumberOfEnemies">IncrementNumberOfEnemies()</h4>
+  <div class="markdown level1 summary"><p>Increments the number of enemies. Called on Agent spawn</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void IncrementNumberOfEnemies()</code></pre>
+  </div>
+  
+  
+  <a id="TowerDefense_Level_LevelManager_IntroCompleted_" data-uid="TowerDefense.Level.LevelManager.IntroCompleted*"></a>
+  <h4 id="TowerDefense_Level_LevelManager_IntroCompleted" data-uid="TowerDefense.Level.LevelManager.IntroCompleted">IntroCompleted()</h4>
+  <div class="markdown level1 summary"><p>Fired when Intro is completed or immediately, if no intro is specified</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void IntroCompleted()</code></pre>
+  </div>
+  
+  
+  <a id="TowerDefense_Level_LevelManager_OnDestroy_" data-uid="TowerDefense.Level.LevelManager.OnDestroy*"></a>
+  <h4 id="TowerDefense_Level_LevelManager_OnDestroy" data-uid="TowerDefense.Level.LevelManager.OnDestroy">OnDestroy()</h4>
+  <div class="markdown level1 summary"><p>Unsubscribes from events</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnDestroy()</code></pre>
+  </div>
+  
+  
+  <a id="TowerDefense_Level_LevelManager_OnHomeBaseDestroyed_" data-uid="TowerDefense.Level.LevelManager.OnHomeBaseDestroyed*"></a>
+  <h4 id="TowerDefense_Level_LevelManager_OnHomeBaseDestroyed_DamageableBehaviour_" data-uid="TowerDefense.Level.LevelManager.OnHomeBaseDestroyed(DamageableBehaviour)">OnHomeBaseDestroyed(DamageableBehaviour)</h4>
+  <div class="markdown level1 summary"><p>Fired when a home base is destroyed</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnHomeBaseDestroyed(DamageableBehaviour homeBase)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">DamageableBehaviour</span></td>
+        <td><span class="parametername">homeBase</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TowerDefense_Level_LevelManager_OnSpawningCompleted_" data-uid="TowerDefense.Level.LevelManager.OnSpawningCompleted*"></a>
+  <h4 id="TowerDefense_Level_LevelManager_OnSpawningCompleted" data-uid="TowerDefense.Level.LevelManager.OnSpawningCompleted">OnSpawningCompleted()</h4>
+  <div class="markdown level1 summary"><p>Fired when the WaveManager has finished spawning enemies</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnSpawningCompleted()</code></pre>
+  </div>
+  
+  
+  <a id="TowerDefense_Level_LevelManager_SafelyCallLevelCompleted_" data-uid="TowerDefense.Level.LevelManager.SafelyCallLevelCompleted*"></a>
+  <h4 id="TowerDefense_Level_LevelManager_SafelyCallLevelCompleted" data-uid="TowerDefense.Level.LevelManager.SafelyCallLevelCompleted">SafelyCallLevelCompleted()</h4>
+  <div class="markdown level1 summary"><p>Calls the <a class="xref" href="TowerDefense.Level.LevelManager.html#TowerDefense_Level_LevelManager_levelCompleted">levelCompleted</a> event</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void SafelyCallLevelCompleted()</code></pre>
+  </div>
+  
+  
+  <a id="TowerDefense_Level_LevelManager_SafelyCallLevelFailed_" data-uid="TowerDefense.Level.LevelManager.SafelyCallLevelFailed*"></a>
+  <h4 id="TowerDefense_Level_LevelManager_SafelyCallLevelFailed" data-uid="TowerDefense.Level.LevelManager.SafelyCallLevelFailed">SafelyCallLevelFailed()</h4>
+  <div class="markdown level1 summary"><p>Calls the <a class="xref" href="TowerDefense.Level.LevelManager.html#TowerDefense_Level_LevelManager_levelFailed">levelFailed</a> event</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void SafelyCallLevelFailed()</code></pre>
+  </div>
+  
+  
+  <a id="TowerDefense_Level_LevelManager_SafelyCallNumberOfEnemiesChanged_" data-uid="TowerDefense.Level.LevelManager.SafelyCallNumberOfEnemiesChanged*"></a>
+  <h4 id="TowerDefense_Level_LevelManager_SafelyCallNumberOfEnemiesChanged" data-uid="TowerDefense.Level.LevelManager.SafelyCallNumberOfEnemiesChanged">SafelyCallNumberOfEnemiesChanged()</h4>
+  <div class="markdown level1 summary"><p>Calls the <a class="xref" href="TowerDefense.Level.LevelManager.html#TowerDefense_Level_LevelManager_numberOfEnemiesChanged">numberOfEnemiesChanged</a> event</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void SafelyCallNumberOfEnemiesChanged()</code></pre>
+  </div>
+  
+  
+  <a id="TowerDefense_Level_LevelManager_Update_" data-uid="TowerDefense.Level.LevelManager.Update*"></a>
+  <h4 id="TowerDefense_Level_LevelManager_Update" data-uid="TowerDefense.Level.LevelManager.Update">Update()</h4>
+  <div class="markdown level1 summary"><p>Updates the currency gain controller</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void Update()</code></pre>
+  </div>
+  <h3 id="events">Events
+  </h3>
+  
+  
+  <h4 id="TowerDefense_Level_LevelManager_homeBaseDestroyed" data-uid="TowerDefense.Level.LevelManager.homeBaseDestroyed">homeBaseDestroyed</h4>
+  <div class="markdown level1 summary"><p>Event for home base being destroyed</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action homeBaseDestroyed</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Action</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TowerDefense_Level_LevelManager_levelCompleted" data-uid="TowerDefense.Level.LevelManager.levelCompleted">levelCompleted</h4>
+  <div class="markdown level1 summary"><p>Fired when all the waves are done and there are no more enemies left</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action levelCompleted</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Action</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TowerDefense_Level_LevelManager_levelFailed" data-uid="TowerDefense.Level.LevelManager.levelFailed">levelFailed</h4>
+  <div class="markdown level1 summary"><p>Fired when all of the home bases are destroyed</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action levelFailed</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Action</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TowerDefense_Level_LevelManager_levelStateChanged" data-uid="TowerDefense.Level.LevelManager.levelStateChanged">levelStateChanged</h4>
+  <div class="markdown level1 summary"><p>Fired when the level state is changed - first parameter is the old state, second parameter is the new state</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action&lt;LevelState, LevelState&gt; levelStateChanged</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Action</span>&lt;<a class="xref" href="TowerDefense.Level.LevelState.html">LevelState</a>, <a class="xref" href="TowerDefense.Level.LevelState.html">LevelState</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TowerDefense_Level_LevelManager_numberOfEnemiesChanged" data-uid="TowerDefense.Level.LevelManager.numberOfEnemiesChanged">numberOfEnemiesChanged</h4>
+  <div class="markdown level1 summary"><p>Fired when the number of enemies has changed</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action&lt;int&gt; numberOfEnemiesChanged</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Action</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

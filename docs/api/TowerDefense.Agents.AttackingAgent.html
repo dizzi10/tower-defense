@@ -1,0 +1,410 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class AttackingAgent
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class AttackingAgent
+   ">
+    <meta name="generator" content="docfx 2.58.9.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="TowerDefense.Agents.AttackingAgent">
+  
+  
+  <h1 id="TowerDefense_Agents_AttackingAgent" data-uid="TowerDefense.Agents.AttackingAgent" class="text-break">Class AttackingAgent
+  </h1>
+  <div class="markdown level0 summary"><p>An implementation of Agent that will attack
+any Towers that block its path</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="TowerDefense.Agents.Agent.html">Agent</a></div>
+    <div class="level2"><span class="xref">AttackingAgent</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="TowerDefense.Agents.Agent.html#TowerDefense_Agents_Agent_destinationReached">Agent.destinationReached</a>
+    </div>
+    <div>
+      <a class="xref" href="TowerDefense.Agents.Agent.html#TowerDefense_Agents_Agent_appliedEffectOffset">Agent.appliedEffectOffset</a>
+    </div>
+    <div>
+      <a class="xref" href="TowerDefense.Agents.Agent.html#TowerDefense_Agents_Agent_appliedEffectScale">Agent.appliedEffectScale</a>
+    </div>
+    <div>
+      <a class="xref" href="TowerDefense.Agents.Agent.html#TowerDefense_Agents_Agent_m_NavMeshAgent">Agent.m_NavMeshAgent</a>
+    </div>
+    <div>
+      <a class="xref" href="TowerDefense.Agents.Agent.html#TowerDefense_Agents_Agent_m_CurrentNode">Agent.m_CurrentNode</a>
+    </div>
+    <div>
+      <a class="xref" href="TowerDefense.Agents.Agent.html#TowerDefense_Agents_Agent_m_LevelManager">Agent.m_LevelManager</a>
+    </div>
+    <div>
+      <a class="xref" href="TowerDefense.Agents.Agent.html#TowerDefense_Agents_Agent_m_Destination">Agent.m_Destination</a>
+    </div>
+    <div>
+      <a class="xref" href="TowerDefense.Agents.Agent.html#TowerDefense_Agents_Agent_velocity">Agent.velocity</a>
+    </div>
+    <div>
+      <a class="xref" href="TowerDefense.Agents.Agent.html#TowerDefense_Agents_Agent_state">Agent.state</a>
+    </div>
+    <div>
+      <a class="xref" href="TowerDefense.Agents.Agent.html#TowerDefense_Agents_Agent_navMeshNavMeshAgent">Agent.navMeshNavMeshAgent</a>
+    </div>
+    <div>
+      <a class="xref" href="TowerDefense.Agents.Agent.html#TowerDefense_Agents_Agent_navMeshMask">Agent.navMeshMask</a>
+    </div>
+    <div>
+      <a class="xref" href="TowerDefense.Agents.Agent.html#TowerDefense_Agents_Agent_originalMovementSpeed">Agent.originalMovementSpeed</a>
+    </div>
+    <div>
+      <a class="xref" href="TowerDefense.Agents.Agent.html#TowerDefense_Agents_Agent_isPathBlocked">Agent.isPathBlocked</a>
+    </div>
+    <div>
+      <a class="xref" href="TowerDefense.Agents.Agent.html#TowerDefense_Agents_Agent_isAtDestination">Agent.isAtDestination</a>
+    </div>
+    <div>
+      <a class="xref" href="TowerDefense.Agents.Agent.html#TowerDefense_Agents_Agent_SetNode_Node_">Agent.SetNode(Node)</a>
+    </div>
+    <div>
+      <a class="xref" href="TowerDefense.Agents.Agent.html#TowerDefense_Agents_Agent_GetNextNode_Node_">Agent.GetNextNode(Node)</a>
+    </div>
+    <div>
+      <a class="xref" href="TowerDefense.Agents.Agent.html#TowerDefense_Agents_Agent_MoveToNode">Agent.MoveToNode()</a>
+    </div>
+    <div>
+      <a class="xref" href="TowerDefense.Agents.Agent.html#TowerDefense_Agents_Agent_HandleDestinationReached">Agent.HandleDestinationReached()</a>
+    </div>
+    <div>
+      <a class="xref" href="TowerDefense.Agents.Agent.html#TowerDefense_Agents_Agent_Awake">Agent.Awake()</a>
+    </div>
+    <div>
+      <a class="xref" href="TowerDefense.Agents.Agent.html#TowerDefense_Agents_Agent_Update">Agent.Update()</a>
+    </div>
+    <div>
+      <a class="xref" href="TowerDefense.Agents.Agent.html#TowerDefense_Agents_Agent_NavigateTo_Vector3_">Agent.NavigateTo(Vector3)</a>
+    </div>
+    <div>
+      <a class="xref" href="TowerDefense.Agents.Agent.html#TowerDefense_Agents_Agent_OnCompletePathUpdate">Agent.OnCompletePathUpdate()</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="TowerDefense.Agents.html">TowerDefense.Agents</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="TowerDefense_Agents_AttackingAgent_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class AttackingAgent : Agent</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="TowerDefense_Agents_AttackingAgent_m_AttackAffector" data-uid="TowerDefense.Agents.AttackingAgent.m_AttackAffector">m_AttackAffector</h4>
+  <div class="markdown level1 summary"><p>The attached attack affector</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected AttackAffector m_AttackAffector</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">AttackAffector</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TowerDefense_Agents_AttackingAgent_m_IsAttacking" data-uid="TowerDefense.Agents.AttackingAgent.m_IsAttacking">m_IsAttacking</h4>
+  <div class="markdown level1 summary"><p>Is this agent currently engaging a tower?</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected bool m_IsAttacking</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TowerDefense_Agents_AttackingAgent_m_TargetTower" data-uid="TowerDefense.Agents.AttackingAgent.m_TargetTower">m_TargetTower</h4>
+  <div class="markdown level1 summary"><p>Tower to target</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Tower m_TargetTower</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Tower</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="TowerDefense_Agents_AttackingAgent_AttackingUpdate_" data-uid="TowerDefense.Agents.AttackingAgent.AttackingUpdate*"></a>
+  <h4 id="TowerDefense_Agents_AttackingAgent_AttackingUpdate" data-uid="TowerDefense.Agents.AttackingAgent.AttackingUpdate">AttackingUpdate()</h4>
+  <div class="markdown level1 summary"><p>The agent attacks until the path is available again or it has killed the target tower</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void AttackingUpdate()</code></pre>
+  </div>
+  
+  
+  <a id="TowerDefense_Agents_AttackingAgent_GetClosestTower_" data-uid="TowerDefense.Agents.AttackingAgent.GetClosestTower*"></a>
+  <h4 id="TowerDefense_Agents_AttackingAgent_GetClosestTower" data-uid="TowerDefense.Agents.AttackingAgent.GetClosestTower">GetClosestTower()</h4>
+  <div class="markdown level1 summary"><p>Gets the closest tower to the agent</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Tower GetClosestTower()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Tower</span></td>
+        <td><p>The closest tower</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TowerDefense_Agents_AttackingAgent_Initialize_" data-uid="TowerDefense.Agents.AttackingAgent.Initialize*"></a>
+  <h4 id="TowerDefense_Agents_AttackingAgent_Initialize" data-uid="TowerDefense.Agents.AttackingAgent.Initialize">Initialize()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Initialize()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="TowerDefense.Agents.Agent.html#TowerDefense_Agents_Agent_Initialize">Agent.Initialize()</a></div>
+  
+  
+  <a id="TowerDefense_Agents_AttackingAgent_LazyLoad_" data-uid="TowerDefense.Agents.AttackingAgent.LazyLoad*"></a>
+  <h4 id="TowerDefense_Agents_AttackingAgent_LazyLoad" data-uid="TowerDefense.Agents.AttackingAgent.LazyLoad">LazyLoad()</h4>
+  <div class="markdown level1 summary"><p>Caches the Attack Affector if necessary</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void LazyLoad()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="TowerDefense.Agents.Agent.html#TowerDefense_Agents_Agent_LazyLoad">Agent.LazyLoad()</a></div>
+  
+  
+  <a id="TowerDefense_Agents_AttackingAgent_OnPartialPathUpdate_" data-uid="TowerDefense.Agents.AttackingAgent.OnPartialPathUpdate*"></a>
+  <h4 id="TowerDefense_Agents_AttackingAgent_OnPartialPathUpdate" data-uid="TowerDefense.Agents.AttackingAgent.OnPartialPathUpdate">OnPartialPathUpdate()</h4>
+  <div class="markdown level1 summary"><p>Change to <a class="xref" href="TowerDefense.Agents.Agent.State.html#TowerDefense_Agents_Agent_State_OnCompletePath">OnCompletePath</a> when path is no longer blocked or to
+<a class="xref" href="TowerDefense.Agents.Agent.State.html#TowerDefense_Agents_Agent_State_Attacking">Attacking</a> when the agent reaches <a class="xref" href="TowerDefense.Agents.AttackingAgent.html#TowerDefense_Agents_AttackingAgent_m_TargetTower">m_TargetTower</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnPartialPathUpdate()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="TowerDefense.Agents.Agent.html#TowerDefense_Agents_Agent_OnPartialPathUpdate">Agent.OnPartialPathUpdate()</a></div>
+  
+  
+  <a id="TowerDefense_Agents_AttackingAgent_OnTargetTowerDestroyed_" data-uid="TowerDefense.Agents.AttackingAgent.OnTargetTowerDestroyed*"></a>
+  <h4 id="TowerDefense_Agents_AttackingAgent_OnTargetTowerDestroyed_DamageableBehaviour_" data-uid="TowerDefense.Agents.AttackingAgent.OnTargetTowerDestroyed(DamageableBehaviour)">OnTargetTowerDestroyed(DamageableBehaviour)</h4>
+  <div class="markdown level1 summary"><p>If the tower is destroyed while other agents attack it, ensure it becomes null</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnTargetTowerDestroyed(DamageableBehaviour tower)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">DamageableBehaviour</span></td>
+        <td><span class="parametername">tower</span></td>
+        <td><p>The tower that has been destroyed</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TowerDefense_Agents_AttackingAgent_PathUpdate_" data-uid="TowerDefense.Agents.AttackingAgent.PathUpdate*"></a>
+  <h4 id="TowerDefense_Agents_AttackingAgent_PathUpdate" data-uid="TowerDefense.Agents.AttackingAgent.PathUpdate">PathUpdate()</h4>
+  <div class="markdown level1 summary"><p>Peforms the relevant path update for the states <a class="xref" href="TowerDefense.Agents.Agent.State.html#TowerDefense_Agents_Agent_State_OnCompletePath">OnCompletePath</a>,
+<a class="xref" href="TowerDefense.Agents.Agent.State.html#TowerDefense_Agents_Agent_State_OnPartialPath">OnPartialPath</a> and <a class="xref" href="TowerDefense.Agents.Agent.State.html#TowerDefense_Agents_Agent_State_Attacking">Attacking</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void PathUpdate()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="TowerDefense.Agents.Agent.html#TowerDefense_Agents_Agent_PathUpdate">Agent.PathUpdate()</a></div>
+  
+  
+  <a id="TowerDefense_Agents_AttackingAgent_Remove_" data-uid="TowerDefense.Agents.AttackingAgent.Remove*"></a>
+  <h4 id="TowerDefense_Agents_AttackingAgent_Remove" data-uid="TowerDefense.Agents.AttackingAgent.Remove">Remove()</h4>
+  <div class="markdown level1 summary"><p>Unsubscribes from tracked towers removed event
+and disables the attached attack affector</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Remove()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="TowerDefense.Agents.Agent.html#TowerDefense_Agents_Agent_Remove">Agent.Remove()</a></div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,812 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class Tower
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class Tower
+   ">
+    <meta name="generator" content="docfx 2.58.9.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="TowerDefense.Towers.Tower">
+  
+  
+  <h1 id="TowerDefense_Towers_Tower" data-uid="TowerDefense.Towers.Tower" class="text-break">Class Tower
+  </h1>
+  <div class="markdown level0 summary"><p>Common functionality for all types of towers</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">Tower</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="TowerDefense.Towers.html">TowerDefense.Towers</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="TowerDefense_Towers_Tower_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class Tower : Targetable</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="TowerDefense_Towers_Tower_dimensions" data-uid="TowerDefense.Towers.Tower.dimensions">dimensions</h4>
+  <div class="markdown level1 summary"><p>The size of the tower's footprint</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IntVector2 dimensions</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IntVector2</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TowerDefense_Towers_Tower_enemyLayerMask" data-uid="TowerDefense.Towers.Tower.enemyLayerMask">enemyLayerMask</h4>
+  <div class="markdown level1 summary"><p>The physics mask the tower searches on</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public LayerMask enemyLayerMask</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">LayerMask</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TowerDefense_Towers_Tower_levels" data-uid="TowerDefense.Towers.Tower.levels">levels</h4>
+  <div class="markdown level1 summary"><p>The tower levels associated with this tower</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TowerLevel[] levels</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TowerDefense.Towers.TowerLevel.html">TowerLevel</a>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TowerDefense_Towers_Tower_towerDeleted" data-uid="TowerDefense.Towers.Tower.towerDeleted">towerDeleted</h4>
+  <div class="markdown level1 summary"><p>The event that fires off when a player deletes a tower</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Action towerDeleted</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Action</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TowerDefense_Towers_Tower_towerDestroyed" data-uid="TowerDefense.Towers.Tower.towerDestroyed">towerDestroyed</h4>
+  <div class="markdown level1 summary"><p>The event that fires off when a tower has been destroyed</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Action towerDestroyed</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Action</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TowerDefense_Towers_Tower_towerName" data-uid="TowerDefense.Towers.Tower.towerName">towerName</h4>
+  <div class="markdown level1 summary"><p>A generalised name common to a levels</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string towerName</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="TowerDefense_Towers_Tower_currentLevel_" data-uid="TowerDefense.Towers.Tower.currentLevel*"></a>
+  <h4 id="TowerDefense_Towers_Tower_currentLevel" data-uid="TowerDefense.Towers.Tower.currentLevel">currentLevel</h4>
+  <div class="markdown level1 summary"><p>The current level of the tower</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int currentLevel { get; protected set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TowerDefense_Towers_Tower_currentTowerLevel_" data-uid="TowerDefense.Towers.Tower.currentTowerLevel*"></a>
+  <h4 id="TowerDefense_Towers_Tower_currentTowerLevel" data-uid="TowerDefense.Towers.Tower.currentTowerLevel">currentTowerLevel</h4>
+  <div class="markdown level1 summary"><p>Reference to the data of the current level</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TowerLevel currentTowerLevel { get; protected set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TowerDefense.Towers.TowerLevel.html">TowerLevel</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TowerDefense_Towers_Tower_gridPosition_" data-uid="TowerDefense.Towers.Tower.gridPosition*"></a>
+  <h4 id="TowerDefense_Towers_Tower_gridPosition" data-uid="TowerDefense.Towers.Tower.gridPosition">gridPosition</h4>
+  <div class="markdown level1 summary"><p>Gets the grid position for this tower on the <a class="xref" href="TowerDefense.Towers.Tower.html#TowerDefense_Towers_Tower_placementArea">placementArea</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IntVector2 gridPosition { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IntVector2</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TowerDefense_Towers_Tower_isAtMaxLevel_" data-uid="TowerDefense.Towers.Tower.isAtMaxLevel*"></a>
+  <h4 id="TowerDefense_Towers_Tower_isAtMaxLevel" data-uid="TowerDefense.Towers.Tower.isAtMaxLevel">isAtMaxLevel</h4>
+  <div class="markdown level1 summary"><p>Gets whether the tower can level up anymore</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool isAtMaxLevel { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TowerDefense_Towers_Tower_placementArea_" data-uid="TowerDefense.Towers.Tower.placementArea*"></a>
+  <h4 id="TowerDefense_Towers_Tower_placementArea" data-uid="TowerDefense.Towers.Tower.placementArea">placementArea</h4>
+  <div class="markdown level1 summary"><p>The placement area we've been built on</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IPlacementArea placementArea { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IPlacementArea</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TowerDefense_Towers_Tower_purchaseCost_" data-uid="TowerDefense.Towers.Tower.purchaseCost*"></a>
+  <h4 id="TowerDefense_Towers_Tower_purchaseCost" data-uid="TowerDefense.Towers.Tower.purchaseCost">purchaseCost</h4>
+  <div class="markdown level1 summary"><p>The purchase cost of the tower</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int purchaseCost { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TowerDefense_Towers_Tower_towerGhostPrefab_" data-uid="TowerDefense.Towers.Tower.towerGhostPrefab*"></a>
+  <h4 id="TowerDefense_Towers_Tower_towerGhostPrefab" data-uid="TowerDefense.Towers.Tower.towerGhostPrefab">towerGhostPrefab</h4>
+  <div class="markdown level1 summary"><p>Gets the first level tower ghost prefab</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TowerPlacementGhost towerGhostPrefab { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TowerPlacementGhost</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="TowerDefense_Towers_Tower_DowngradeTower_" data-uid="TowerDefense.Towers.Tower.DowngradeTower*"></a>
+  <h4 id="TowerDefense_Towers_Tower_DowngradeTower" data-uid="TowerDefense.Towers.Tower.DowngradeTower">DowngradeTower()</h4>
+  <div class="markdown level1 summary"><p>A method for downgrading tower</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual bool DowngradeTower()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><returns>false</returns> if tower is at lowest level</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TowerDefense_Towers_Tower_GetCostForNextLevel_" data-uid="TowerDefense.Towers.Tower.GetCostForNextLevel*"></a>
+  <h4 id="TowerDefense_Towers_Tower_GetCostForNextLevel" data-uid="TowerDefense.Towers.Tower.GetCostForNextLevel">GetCostForNextLevel()</h4>
+  <div class="markdown level1 summary"><p>Provides information on the cost to upgrade</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int GetCostForNextLevel()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Returns -1 if the towers is already at max level, other returns the cost to upgrade</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TowerDefense_Towers_Tower_GetSellLevel_" data-uid="TowerDefense.Towers.Tower.GetSellLevel*"></a>
+  <h4 id="TowerDefense_Towers_Tower_GetSellLevel" data-uid="TowerDefense.Towers.Tower.GetSellLevel">GetSellLevel()</h4>
+  <div class="markdown level1 summary"><p>Provides the value recived for selling this tower</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int GetSellLevel()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>A sell value of the tower</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TowerDefense_Towers_Tower_GetSellLevel_" data-uid="TowerDefense.Towers.Tower.GetSellLevel*"></a>
+  <h4 id="TowerDefense_Towers_Tower_GetSellLevel_System_Int32_" data-uid="TowerDefense.Towers.Tower.GetSellLevel(System.Int32)">GetSellLevel(Int32)</h4>
+  <div class="markdown level1 summary"><p>Provides the value recived for selling this tower of a particular level</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int GetSellLevel(int level)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">level</span></td>
+        <td><p>Level of tower</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>A sell value of the tower</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TowerDefense_Towers_Tower_Initialize_" data-uid="TowerDefense.Towers.Tower.Initialize*"></a>
+  <h4 id="TowerDefense_Towers_Tower_Initialize_IPlacementArea_IntVector2_" data-uid="TowerDefense.Towers.Tower.Initialize(IPlacementArea,IntVector2)">Initialize(IPlacementArea, IntVector2)</h4>
+  <div class="markdown level1 summary"><p>Provide the tower with data to initialize with</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void Initialize(IPlacementArea targetArea, IntVector2 destination)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IPlacementArea</span></td>
+        <td><span class="parametername">targetArea</span></td>
+        <td><p>The placement area configuration</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">IntVector2</span></td>
+        <td><span class="parametername">destination</span></td>
+        <td><p>The destination position</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TowerDefense_Towers_Tower_KillTower_" data-uid="TowerDefense.Towers.Tower.KillTower*"></a>
+  <h4 id="TowerDefense_Towers_Tower_KillTower" data-uid="TowerDefense.Towers.Tower.KillTower">KillTower()</h4>
+  <div class="markdown level1 summary"><p>Kills this tower</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void KillTower()</code></pre>
+  </div>
+  
+  
+  <a id="TowerDefense_Towers_Tower_OnDestroy_" data-uid="TowerDefense.Towers.Tower.OnDestroy*"></a>
+  <h4 id="TowerDefense_Towers_Tower_OnDestroy" data-uid="TowerDefense.Towers.Tower.OnDestroy">OnDestroy()</h4>
+  <div class="markdown level1 summary"><p>unsubsribe when necessary</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnDestroy()</code></pre>
+  </div>
+  
+  
+  <a id="TowerDefense_Towers_Tower_OnLevelStateChanged_" data-uid="TowerDefense.Towers.Tower.OnLevelStateChanged*"></a>
+  <h4 id="TowerDefense_Towers_Tower_OnLevelStateChanged_LevelState_LevelState_" data-uid="TowerDefense.Towers.Tower.OnLevelStateChanged(LevelState,LevelState)">OnLevelStateChanged(LevelState, LevelState)</h4>
+  <div class="markdown level1 summary"><p>Intiailises affectors based on the level state</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnLevelStateChanged(LevelState previous, LevelState current)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">LevelState</span></td>
+        <td><span class="parametername">previous</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">LevelState</span></td>
+        <td><span class="parametername">current</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TowerDefense_Towers_Tower_Remove_" data-uid="TowerDefense.Towers.Tower.Remove*"></a>
+  <h4 id="TowerDefense_Towers_Tower_Remove" data-uid="TowerDefense.Towers.Tower.Remove">Remove()</h4>
+  <div class="markdown level1 summary"><p>Removes tower from placement area and destroys it</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Remove()</code></pre>
+  </div>
+  
+  
+  <a id="TowerDefense_Towers_Tower_ScaleHealth_" data-uid="TowerDefense.Towers.Tower.ScaleHealth*"></a>
+  <h4 id="TowerDefense_Towers_Tower_ScaleHealth" data-uid="TowerDefense.Towers.Tower.ScaleHealth">ScaleHealth()</h4>
+  <div class="markdown level1 summary"><p>Scales the health based on the previous health
+Requires override when the rules for scaling health on upgrade changes</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void ScaleHealth()</code></pre>
+  </div>
+  
+  
+  <a id="TowerDefense_Towers_Tower_Sell_" data-uid="TowerDefense.Towers.Tower.Sell*"></a>
+  <h4 id="TowerDefense_Towers_Tower_Sell" data-uid="TowerDefense.Towers.Tower.Sell">Sell()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Sell()</code></pre>
+  </div>
+  
+  
+  <a id="TowerDefense_Towers_Tower_SetLevel_" data-uid="TowerDefense.Towers.Tower.SetLevel*"></a>
+  <h4 id="TowerDefense_Towers_Tower_SetLevel_System_Int32_" data-uid="TowerDefense.Towers.Tower.SetLevel(System.Int32)">SetLevel(Int32)</h4>
+  <div class="markdown level1 summary"><p>Cache and update oftenly used data</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void SetLevel(int level)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">level</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TowerDefense_Towers_Tower_UpgradeTower_" data-uid="TowerDefense.Towers.Tower.UpgradeTower*"></a>
+  <h4 id="TowerDefense_Towers_Tower_UpgradeTower" data-uid="TowerDefense.Towers.Tower.UpgradeTower">UpgradeTower()</h4>
+  <div class="markdown level1 summary"><p>Used to (try to) upgrade the tower data</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual bool UpgradeTower()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TowerDefense_Towers_Tower_UpgradeTowerToLevel_" data-uid="TowerDefense.Towers.Tower.UpgradeTowerToLevel*"></a>
+  <h4 id="TowerDefense_Towers_Tower_UpgradeTowerToLevel_System_Int32_" data-uid="TowerDefense.Towers.Tower.UpgradeTowerToLevel(System.Int32)">UpgradeTowerToLevel(Int32)</h4>
+  <div class="markdown level1 summary"><p>Used to set the tower to any valid level</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual bool UpgradeTowerToLevel(int level)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">level</span></td>
+        <td><p>The level to upgrade the tower to</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if successful</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

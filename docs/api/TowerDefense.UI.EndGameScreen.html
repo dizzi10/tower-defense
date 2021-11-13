@@ -1,0 +1,688 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class EndGameScreen
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class EndGameScreen
+   ">
+    <meta name="generator" content="docfx 2.58.9.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="TowerDefense.UI.EndGameScreen">
+  
+  
+  <h1 id="TowerDefense_UI_EndGameScreen" data-uid="TowerDefense.UI.EndGameScreen" class="text-break">Class EndGameScreen
+  </h1>
+  <div class="markdown level0 summary"><p>UI to display the game over screen</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">EndGameScreen</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="TowerDefense.UI.html">TowerDefense.UI</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="TowerDefense_UI_EndGameScreen_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class EndGameScreen : MonoBehaviour</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="TowerDefense_UI_EndGameScreen_audioSource" data-uid="TowerDefense.UI.EndGameScreen.audioSource">audioSource</h4>
+  <div class="markdown level1 summary"><p>AudioSource that plays the sound</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AudioSource audioSource</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">AudioSource</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TowerDefense_UI_EndGameScreen_background" data-uid="TowerDefense.UI.EndGameScreen.background">background</h4>
+  <div class="markdown level1 summary"><p>Background image</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Image background</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Image</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TowerDefense_UI_EndGameScreen_defeatSound" data-uid="TowerDefense.UI.EndGameScreen.defeatSound">defeatSound</h4>
+  <div class="markdown level1 summary"><p>AudioClip to play when failed</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AudioClip defeatSound</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">AudioClip</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TowerDefense_UI_EndGameScreen_endGameCanvas" data-uid="TowerDefense.UI.EndGameScreen.endGameCanvas">endGameCanvas</h4>
+  <div class="markdown level1 summary"><p>The containing panel of the End Game UI</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Canvas endGameCanvas</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Canvas</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TowerDefense_UI_EndGameScreen_endGameMessageText" data-uid="TowerDefense.UI.EndGameScreen.endGameMessageText">endGameMessageText</h4>
+  <div class="markdown level1 summary"><p>Reference to the Text object that displays the result message</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Text endGameMessageText</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Text</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TowerDefense_UI_EndGameScreen_levelCompleteText" data-uid="TowerDefense.UI.EndGameScreen.levelCompleteText">levelCompleteText</h4>
+  <div class="markdown level1 summary"><p>Text to be displayed on popup</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string levelCompleteText</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TowerDefense_UI_EndGameScreen_levelFailedText" data-uid="TowerDefense.UI.EndGameScreen.levelFailedText">levelFailedText</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string levelFailedText</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TowerDefense_UI_EndGameScreen_loseBackgroundColor" data-uid="TowerDefense.UI.EndGameScreen.loseBackgroundColor">loseBackgroundColor</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Color loseBackgroundColor</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Color</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TowerDefense_UI_EndGameScreen_m_LevelManager" data-uid="TowerDefense.UI.EndGameScreen.m_LevelManager">m_LevelManager</h4>
+  <div class="markdown level1 summary"><p>Reference to the <see cref="!:LevelManager"></see></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected LevelManager m_LevelManager</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">LevelManager</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TowerDefense_UI_EndGameScreen_menuSceneName" data-uid="TowerDefense.UI.EndGameScreen.menuSceneName">menuSceneName</h4>
+  <div class="markdown level1 summary"><p>Name of level select screen</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string menuSceneName</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TowerDefense_UI_EndGameScreen_nextLevelButton" data-uid="TowerDefense.UI.EndGameScreen.nextLevelButton">nextLevelButton</h4>
+  <div class="markdown level1 summary"><p>The Canvas that holds the button to go to the next level
+if the player has beaten the level</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Canvas nextLevelButton</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Canvas</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TowerDefense_UI_EndGameScreen_scorePanel" data-uid="TowerDefense.UI.EndGameScreen.scorePanel">scorePanel</h4>
+  <div class="markdown level1 summary"><p>Panel that shows final star rating</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ScorePanel scorePanel</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TowerDefense.UI.ScorePanel.html">ScorePanel</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TowerDefense_UI_EndGameScreen_victorySound" data-uid="TowerDefense.UI.EndGameScreen.victorySound">victorySound</h4>
+  <div class="markdown level1 summary"><p>AudioClip to play when victorious</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AudioClip victorySound</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">AudioClip</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TowerDefense_UI_EndGameScreen_winBackgroundColor" data-uid="TowerDefense.UI.EndGameScreen.winBackgroundColor">winBackgroundColor</h4>
+  <div class="markdown level1 summary"><p>Color to set background</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Color winBackgroundColor</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Color</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="TowerDefense_UI_EndGameScreen_CalculateFinalScore_" data-uid="TowerDefense.UI.EndGameScreen.CalculateFinalScore*"></a>
+  <h4 id="TowerDefense_UI_EndGameScreen_CalculateFinalScore" data-uid="TowerDefense.UI.EndGameScreen.CalculateFinalScore">CalculateFinalScore()</h4>
+  <div class="markdown level1 summary"><p>Add up the health of all the Home Bases and return a score</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected int CalculateFinalScore()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Final score</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TowerDefense_UI_EndGameScreen_CalculateScore_" data-uid="TowerDefense.UI.EndGameScreen.CalculateScore*"></a>
+  <h4 id="TowerDefense_UI_EndGameScreen_CalculateScore_System_Single_System_Single_" data-uid="TowerDefense.UI.EndGameScreen.CalculateScore(System.Single,System.Single)">CalculateScore(Single, Single)</h4>
+  <div class="markdown level1 summary"><p>Take the final remaining health of all bases and rates them</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected int CalculateScore(float remainingHealth, float maxHealth)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">remainingHealth</span></td>
+        <td><p>the total remaining health of all home bases</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">maxHealth</span></td>
+        <td><p>the total maximum health of all home bases</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>0 to 3 depending on how much health is remaining</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TowerDefense_UI_EndGameScreen_Defeat_" data-uid="TowerDefense.UI.EndGameScreen.Defeat*"></a>
+  <h4 id="TowerDefense_UI_EndGameScreen_Defeat" data-uid="TowerDefense.UI.EndGameScreen.Defeat">Defeat()</h4>
+  <div class="markdown level1 summary"><p>Occurs when level is failed</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void Defeat()</code></pre>
+  </div>
+  
+  
+  <a id="TowerDefense_UI_EndGameScreen_GoToMainMenu_" data-uid="TowerDefense.UI.EndGameScreen.GoToMainMenu*"></a>
+  <h4 id="TowerDefense_UI_EndGameScreen_GoToMainMenu" data-uid="TowerDefense.UI.EndGameScreen.GoToMainMenu">GoToMainMenu()</h4>
+  <div class="markdown level1 summary"><p>Safely unsubscribes from <see cref="!:LevelManager"></see> events.
+Go back to the main menu scene</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GoToMainMenu()</code></pre>
+  </div>
+  
+  
+  <a id="TowerDefense_UI_EndGameScreen_GoToNextLevel_" data-uid="TowerDefense.UI.EndGameScreen.GoToNextLevel*"></a>
+  <h4 id="TowerDefense_UI_EndGameScreen_GoToNextLevel" data-uid="TowerDefense.UI.EndGameScreen.GoToNextLevel">GoToNextLevel()</h4>
+  <div class="markdown level1 summary"><p>Safely unsubscribes from <see cref="!:LevelManager"></see> events.
+Goes to the next scene if valid</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GoToNextLevel()</code></pre>
+  </div>
+  
+  
+  <a id="TowerDefense_UI_EndGameScreen_LazyLoad_" data-uid="TowerDefense.UI.EndGameScreen.LazyLoad*"></a>
+  <h4 id="TowerDefense_UI_EndGameScreen_LazyLoad" data-uid="TowerDefense.UI.EndGameScreen.LazyLoad">LazyLoad()</h4>
+  <div class="markdown level1 summary"><p>Ensure <a class="xref" href="TowerDefense.UI.EndGameScreen.html#TowerDefense_UI_EndGameScreen_m_LevelManager">m_LevelManager</a> is not null</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void LazyLoad()</code></pre>
+  </div>
+  
+  
+  <a id="TowerDefense_UI_EndGameScreen_OnDestroy_" data-uid="TowerDefense.UI.EndGameScreen.OnDestroy*"></a>
+  <h4 id="TowerDefense_UI_EndGameScreen_OnDestroy" data-uid="TowerDefense.UI.EndGameScreen.OnDestroy">OnDestroy()</h4>
+  <div class="markdown level1 summary"><p>Safely unsubscribes from <see cref="!:LevelManager"></see> events.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void OnDestroy()</code></pre>
+  </div>
+  
+  
+  <a id="TowerDefense_UI_EndGameScreen_OpenEndGameScreen_" data-uid="TowerDefense.UI.EndGameScreen.OpenEndGameScreen*"></a>
+  <h4 id="TowerDefense_UI_EndGameScreen_OpenEndGameScreen_System_String_" data-uid="TowerDefense.UI.EndGameScreen.OpenEndGameScreen(System.String)">OpenEndGameScreen(String)</h4>
+  <div class="markdown level1 summary"><p>Shows the end game screen</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void OpenEndGameScreen(string endResultText)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">endResultText</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TowerDefense_UI_EndGameScreen_RestartLevel_" data-uid="TowerDefense.UI.EndGameScreen.RestartLevel*"></a>
+  <h4 id="TowerDefense_UI_EndGameScreen_RestartLevel" data-uid="TowerDefense.UI.EndGameScreen.RestartLevel">RestartLevel()</h4>
+  <div class="markdown level1 summary"><p>Safely unsubscribes from <see cref="!:LevelManager"></see> events.
+Reloads the active scene</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RestartLevel()</code></pre>
+  </div>
+  
+  
+  <a id="TowerDefense_UI_EndGameScreen_SafelyUnsubscribe_" data-uid="TowerDefense.UI.EndGameScreen.SafelyUnsubscribe*"></a>
+  <h4 id="TowerDefense_UI_EndGameScreen_SafelyUnsubscribe" data-uid="TowerDefense.UI.EndGameScreen.SafelyUnsubscribe">SafelyUnsubscribe()</h4>
+  <div class="markdown level1 summary"><p>Ensure that <see cref="!:LevelManager"></see> events are unsubscribed from when necessary</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void SafelyUnsubscribe()</code></pre>
+  </div>
+  
+  
+  <a id="TowerDefense_UI_EndGameScreen_Start_" data-uid="TowerDefense.UI.EndGameScreen.Start*"></a>
+  <h4 id="TowerDefense_UI_EndGameScreen_Start" data-uid="TowerDefense.UI.EndGameScreen.Start">Start()</h4>
+  <div class="markdown level1 summary"><p>Hide the panel if it is active at the start.
+Subscribe to the <see cref="!:LevelManager"></see> completed/failed events.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void Start()</code></pre>
+  </div>
+  
+  
+  <a id="TowerDefense_UI_EndGameScreen_Victory_" data-uid="TowerDefense.UI.EndGameScreen.Victory*"></a>
+  <h4 id="TowerDefense_UI_EndGameScreen_Victory" data-uid="TowerDefense.UI.EndGameScreen.Victory">Victory()</h4>
+  <div class="markdown level1 summary"><p>Occurs when the level is sucessfully completed</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void Victory()</code></pre>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

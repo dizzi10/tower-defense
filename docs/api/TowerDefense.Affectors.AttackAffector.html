@@ -1,0 +1,816 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class AttackAffector
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class AttackAffector
+   ">
+    <meta name="generator" content="docfx 2.58.9.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="TowerDefense.Affectors.AttackAffector">
+  
+  
+  <h1 id="TowerDefense_Affectors_AttackAffector" data-uid="TowerDefense.Affectors.AttackAffector" class="text-break">Class AttackAffector
+  </h1>
+  <div class="markdown level0 summary"><p>The common effect for handling firing projectiles to attack</p>
+<p>Requires an ILauncher but it is not automatically added
+Add an ILauncher implementation to this GameObject before you add this script</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="TowerDefense.Affectors.Affector.html">Affector</a></div>
+    <div class="level2"><span class="xref">AttackAffector</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">ITowerRadiusProvider</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="TowerDefense.Affectors.Affector.html#TowerDefense_Affectors_Affector_description">Affector.description</a>
+    </div>
+    <div>
+      <a class="xref" href="TowerDefense.Affectors.Affector.html#TowerDefense_Affectors_Affector_alignment">Affector.alignment</a>
+    </div>
+    <div>
+      <a class="xref" href="TowerDefense.Affectors.Affector.html#TowerDefense_Affectors_Affector_enemyMask">Affector.enemyMask</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="TowerDefense.Affectors.html">TowerDefense.Affectors</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="TowerDefense_Affectors_AttackAffector_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class AttackAffector : Affector, ITowerRadiusProvider</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="TowerDefense_Affectors_AttackAffector_epicenter" data-uid="TowerDefense.Affectors.AttackAffector.epicenter">epicenter</h4>
+  <div class="markdown level1 summary"><p>The reference to the center point where the tower will search from</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Transform epicenter</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Transform</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TowerDefense_Affectors_AttackAffector_fireCondition" data-uid="TowerDefense.Affectors.AttackAffector.fireCondition">fireCondition</h4>
+  <div class="markdown level1 summary"><p>Fire condition</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Filter fireCondition</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TowerDefense.Affectors.Filter.html">Filter</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TowerDefense_Affectors_AttackAffector_fireRate" data-uid="TowerDefense.Affectors.AttackAffector.fireRate">fireRate</h4>
+  <div class="markdown level1 summary"><p>The fire rate in fires-per-second</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float fireRate</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TowerDefense_Affectors_AttackAffector_isMultiAttack" data-uid="TowerDefense.Affectors.AttackAffector.isMultiAttack">isMultiAttack</h4>
+  <div class="markdown level1 summary"><p>Configuration for when the tower does splash damage</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool isMultiAttack</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TowerDefense_Affectors_AttackAffector_m_FireTimer" data-uid="TowerDefense.Affectors.AttackAffector.m_FireTimer">m_FireTimer</h4>
+  <div class="markdown level1 summary"><p>The time before firing is possible</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected float m_FireTimer</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TowerDefense_Affectors_AttackAffector_m_Launcher" data-uid="TowerDefense.Affectors.AttackAffector.m_Launcher">m_Launcher</h4>
+  <div class="markdown level1 summary"><p>The reference to the attached launcher</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected ILauncher m_Launcher</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ILauncher</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TowerDefense_Affectors_AttackAffector_m_TrackingEnemy" data-uid="TowerDefense.Affectors.AttackAffector.m_TrackingEnemy">m_TrackingEnemy</h4>
+  <div class="markdown level1 summary"><p>Reference to the current tracked enemy</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Targetable m_TrackingEnemy</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Targetable</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TowerDefense_Affectors_AttackAffector_projectile" data-uid="TowerDefense.Affectors.AttackAffector.projectile">projectile</h4>
+  <div class="markdown level1 summary"><p>The projectile used to attack</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GameObject projectile</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GameObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TowerDefense_Affectors_AttackAffector_projectilePoints" data-uid="TowerDefense.Affectors.AttackAffector.projectilePoints">projectilePoints</h4>
+  <div class="markdown level1 summary"><p>The list of points to launch the projectiles from</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Transform[] projectilePoints</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Transform</span>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TowerDefense_Affectors_AttackAffector_radiusEffectColor" data-uid="TowerDefense.Affectors.AttackAffector.radiusEffectColor">radiusEffectColor</h4>
+  <div class="markdown level1 summary"><p>Color of effect radius visualization</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Color radiusEffectColor</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Color</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TowerDefense_Affectors_AttackAffector_randomAudioSource" data-uid="TowerDefense.Affectors.AttackAffector.randomAudioSource">randomAudioSource</h4>
+  <div class="markdown level1 summary"><p>The audio source to play when firing</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RandomAudioSource randomAudioSource</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">RandomAudioSource</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TowerDefense_Affectors_AttackAffector_searchCondition" data-uid="TowerDefense.Affectors.AttackAffector.searchCondition">searchCondition</h4>
+  <div class="markdown level1 summary"><p>Search condition</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Filter searchCondition</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TowerDefense.Affectors.Filter.html">Filter</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TowerDefense_Affectors_AttackAffector_towerTargetter" data-uid="TowerDefense.Affectors.AttackAffector.towerTargetter">towerTargetter</h4>
+  <div class="markdown level1 summary"><p>Gets the targetter</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Targetter towerTargetter</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Targetter</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="TowerDefense_Affectors_AttackAffector_damagerProjectile_" data-uid="TowerDefense.Affectors.AttackAffector.damagerProjectile*"></a>
+  <h4 id="TowerDefense_Affectors_AttackAffector_damagerProjectile" data-uid="TowerDefense.Affectors.AttackAffector.damagerProjectile">damagerProjectile</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Damager damagerProjectile { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Damager</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TowerDefense_Affectors_AttackAffector_effectColor_" data-uid="TowerDefense.Affectors.AttackAffector.effectColor*"></a>
+  <h4 id="TowerDefense_Affectors_AttackAffector_effectColor" data-uid="TowerDefense.Affectors.AttackAffector.effectColor">effectColor</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Color effectColor { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Color</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TowerDefense_Affectors_AttackAffector_effectRadius_" data-uid="TowerDefense.Affectors.AttackAffector.effectRadius*"></a>
+  <h4 id="TowerDefense_Affectors_AttackAffector_effectRadius" data-uid="TowerDefense.Affectors.AttackAffector.effectRadius">effectRadius</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the attack radius</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float effectRadius { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TowerDefense_Affectors_AttackAffector_searchRate_" data-uid="TowerDefense.Affectors.AttackAffector.searchRate*"></a>
+  <h4 id="TowerDefense_Affectors_AttackAffector_searchRate" data-uid="TowerDefense.Affectors.AttackAffector.searchRate">searchRate</h4>
+  <div class="markdown level1 summary"><p>Gets the search rate from the targetter</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float searchRate { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TowerDefense_Affectors_AttackAffector_targetter_" data-uid="TowerDefense.Affectors.AttackAffector.targetter*"></a>
+  <h4 id="TowerDefense_Affectors_AttackAffector_targetter" data-uid="TowerDefense.Affectors.AttackAffector.targetter">targetter</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Targetter targetter { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Targetter</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TowerDefense_Affectors_AttackAffector_trackingEnemy_" data-uid="TowerDefense.Affectors.AttackAffector.trackingEnemy*"></a>
+  <h4 id="TowerDefense_Affectors_AttackAffector_trackingEnemy" data-uid="TowerDefense.Affectors.AttackAffector.trackingEnemy">trackingEnemy</h4>
+  <div class="markdown level1 summary"><p>Gets the targetable</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Targetable trackingEnemy { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Targetable</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="TowerDefense_Affectors_AttackAffector_ByDistance_" data-uid="TowerDefense.Affectors.AttackAffector.ByDistance*"></a>
+  <h4 id="TowerDefense_Affectors_AttackAffector_ByDistance_Targetable_Targetable_" data-uid="TowerDefense.Affectors.AttackAffector.ByDistance(Targetable,Targetable)">ByDistance(Targetable, Targetable)</h4>
+  <div class="markdown level1 summary"><p>A delegate to compare distances of components</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual int ByDistance(Targetable first, Targetable second)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Targetable</span></td>
+        <td><span class="parametername">first</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Targetable</span></td>
+        <td><span class="parametername">second</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TowerDefense_Affectors_AttackAffector_FireProjectile_" data-uid="TowerDefense.Affectors.AttackAffector.FireProjectile*"></a>
+  <h4 id="TowerDefense_Affectors_AttackAffector_FireProjectile" data-uid="TowerDefense.Affectors.AttackAffector.FireProjectile">FireProjectile()</h4>
+  <div class="markdown level1 summary"><p>Common logic when attacking</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void FireProjectile()</code></pre>
+  </div>
+  
+  
+  <a id="TowerDefense_Affectors_AttackAffector_GetProjectileDamage_" data-uid="TowerDefense.Affectors.AttackAffector.GetProjectileDamage*"></a>
+  <h4 id="TowerDefense_Affectors_AttackAffector_GetProjectileDamage" data-uid="TowerDefense.Affectors.AttackAffector.GetProjectileDamage">GetProjectileDamage()</h4>
+  <div class="markdown level1 summary"><p>Returns the total projectile damage</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float GetProjectileDamage()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TowerDefense_Affectors_AttackAffector_Initialize_" data-uid="TowerDefense.Affectors.AttackAffector.Initialize*"></a>
+  <h4 id="TowerDefense_Affectors_AttackAffector_Initialize_IAlignmentProvider_" data-uid="TowerDefense.Affectors.AttackAffector.Initialize(IAlignmentProvider)">Initialize(IAlignmentProvider)</h4>
+  <div class="markdown level1 summary"><p>Initializes the attack affector</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Initialize(IAlignmentProvider affectorAlignment)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IAlignmentProvider</span></td>
+        <td><span class="parametername">affectorAlignment</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="TowerDefense.Affectors.Affector.html#TowerDefense_Affectors_Affector_Initialize_IAlignmentProvider_">Affector.Initialize(IAlignmentProvider)</a></div>
+  
+  
+  <a id="TowerDefense_Affectors_AttackAffector_Initialize_" data-uid="TowerDefense.Affectors.AttackAffector.Initialize*"></a>
+  <h4 id="TowerDefense_Affectors_AttackAffector_Initialize_IAlignmentProvider_LayerMask_" data-uid="TowerDefense.Affectors.AttackAffector.Initialize(IAlignmentProvider,LayerMask)">Initialize(IAlignmentProvider, LayerMask)</h4>
+  <div class="markdown level1 summary"><p>Initialises the  attack affector with a layer mask</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Initialize(IAlignmentProvider affectorAlignment, LayerMask mask)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IAlignmentProvider</span></td>
+        <td><span class="parametername">affectorAlignment</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">LayerMask</span></td>
+        <td><span class="parametername">mask</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="TowerDefense.Affectors.Affector.html#TowerDefense_Affectors_Affector_Initialize_IAlignmentProvider_LayerMask_">Affector.Initialize(IAlignmentProvider, LayerMask)</a></div>
+  
+  
+  <a id="TowerDefense_Affectors_AttackAffector_OnFireTimer_" data-uid="TowerDefense.Affectors.AttackAffector.OnFireTimer*"></a>
+  <h4 id="TowerDefense_Affectors_AttackAffector_OnFireTimer" data-uid="TowerDefense.Affectors.AttackAffector.OnFireTimer">OnFireTimer()</h4>
+  <div class="markdown level1 summary"><p>Fired at every poll of the fire rate timer</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnFireTimer()</code></pre>
+  </div>
+  
+  
+  <a id="TowerDefense_Affectors_AttackAffector_SetUpTimers_" data-uid="TowerDefense.Affectors.AttackAffector.SetUpTimers*"></a>
+  <h4 id="TowerDefense_Affectors_AttackAffector_SetUpTimers" data-uid="TowerDefense.Affectors.AttackAffector.SetUpTimers">SetUpTimers()</h4>
+  <div class="markdown level1 summary"><p>Initialise the RepeatingTimer</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void SetUpTimers()</code></pre>
+  </div>
+  
+  
+  <a id="TowerDefense_Affectors_AttackAffector_Update_" data-uid="TowerDefense.Affectors.AttackAffector.Update*"></a>
+  <h4 id="TowerDefense_Affectors_AttackAffector_Update" data-uid="TowerDefense.Affectors.AttackAffector.Update">Update()</h4>
+  <div class="markdown level1 summary"><p>Update the timers</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void Update()</code></pre>
+  </div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">ITowerRadiusProvider</span>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

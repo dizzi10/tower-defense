@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ActionGameFramework.Health.Targetable" Collapsed="true">
+    <Position X="9.5" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAIAAAAAAIAEAAQCQAAAAAAEE=</HashCode>
+      <FileName>Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\ActionGameFramework\Health\Targetable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.Data.GameManagerBase&lt;TGameManager, TDataStore&gt;" Collapsed="true">
+    <Position X="8.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAACCQAAAgAAAACAAQEQAAAQAAIAABACAAAEA=</HashCode>
+      <FileName>Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\Core\Data\GameManagerBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TowerDefense.Effects.PoolableEffect" Collapsed="true">
+    <Position X="10.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAACAAAQAECAgAQAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\Core\Effects\PoolableEffect.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.Health.DamageableBehaviour" Collapsed="true">
+    <Position X="8.75" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAUAAAgAAAAFAJIAAABCAAAAAAAAAgAAAAEA=</HashCode>
+      <FileName>Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\Core\Health\DamageableBehaviour.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.Input.InputController" Collapsed="true">
+    <Position X="7" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>GiQKgAYABBBAAAAAAAAQpAAAAQABCAAAQAgBAkAAAEQ=</HashCode>
+      <FileName>Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\Core\Input\InputController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.UI.MainMenu" Collapsed="true">
+    <Position X="12.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ARAAAAAAABAIAAEAAIAAAAIAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\Core\UI\MainMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.Utilities.PersistentSingleton&lt;T&gt;" Collapsed="true">
+    <Position X="8.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\Core\Utilities\PersistentSingleton.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.Utilities.Pool&lt;T&gt;" Collapsed="true">
+    <Position X="12.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>iAIAAAABAAAAAABAAAAAAAAABACAAABAQAAAEAAQAAQ=</HashCode>
+      <FileName>Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\Core\Utilities\Pool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.Utilities.UnityComponentPool&lt;T&gt;" Collapsed="true">
+    <Position X="13" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAABAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\Core\Utilities\Pool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.Utilities.GameObjectPool" Collapsed="true">
+    <Position X="11.25" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAABAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\Core\Utilities\Pool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.Utilities.AutoGameObjectPrefabPool" Collapsed="true">
+    <Position X="11.25" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAEAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\Core\Utilities\Pool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.Utilities.AutoComponentPrefabPool&lt;T&gt;" Collapsed="true">
+    <Position X="13" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAEAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\Core\Utilities\Pool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.Utilities.Poolable" Collapsed="true">
+    <Position X="10.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAgAAAAAAAAAAAAAAAAAAAAAAgAIAAAAAA=</HashCode>
+      <FileName>Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\Core\Utilities\Poolable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.Utilities.PoolManager" Collapsed="true">
+    <Position X="7" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAACAAAQAAAAAAAAgAAAAAAAAAAAACAAAAAAg=</HashCode>
+      <FileName>Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\Core\Utilities\PoolManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.Utilities.Singleton&lt;T&gt;" Collapsed="true">
+    <Position X="8.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAQAAAAAAAABAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\Core\Utilities\Singleton.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.Utilities.TimedBehaviour" Collapsed="true">
+    <Position X="5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAgAAAAAAAAAAAAAIAAAAAAAAgAAAAgAAAAA=</HashCode>
+      <FileName>Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\Core\Utilities\TimedBehaviour.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TowerDefense.Agents.Agent" Collapsed="true">
+    <Position X="7.75" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EBQAAAAAAIoAAYgQAwCABAQQAAABQQAEEAQAAAAAAGA=</HashCode>
+      <FileName>Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\TowerDefense\Agents\Agent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TowerDefense.Agents.AttackingAgent" Collapsed="true">
+    <Position X="6.75" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAQAAAAAAAQgIAAAABAAAAAAAAAAAFAAAAAAAwQA=</HashCode>
+      <FileName>Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\TowerDefense\Agents\AttackingAgent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TowerDefense.Agents.FlyingAgent" Collapsed="true">
+    <Position X="8.75" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EBAAAAAAAAAAAAAEAAAAAAIAAAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\TowerDefense\Agents\FlyingAgent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TowerDefense.Game.GameManager" Collapsed="true">
+    <Position X="8.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAEAAAAAAAAAAAAAAAAAAAEAAAAFAAAAAAAEA=</HashCode>
+      <FileName>Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\TowerDefense\Game\GameManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TowerDefense.Level.LevelManager" Collapsed="true">
+    <Position X="7" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAwJ4gAAAAAVBAAAABANAESAAEABJAgEEAAYBAlAAEA=</HashCode>
+      <FileName>Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\TowerDefense\Level\LevelManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TowerDefense.Level.PlayerHomeBase" Collapsed="true">
+    <Position X="7.75" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAFAAAAACAACAAAAAAAAAFAAAIgAIAAQAAAGAAAAAA=</HashCode>
+      <FileName>Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\TowerDefense\Level\PlayerHomeBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TowerDefense.Level.TimedWave" Collapsed="true">
+    <Position X="5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAgAAAAAAAAAAAAQAAAAAAAAAAAAAIACAAAAAAA=</HashCode>
+      <FileName>Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\TowerDefense\Level\TimedWave.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TowerDefense.Level.Wave" Collapsed="true">
+    <Position X="5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACFAAAAAQAAAAAAAAAEQAAAAAAAQAAAAAIBCAAAAQAA=</HashCode>
+      <FileName>Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\TowerDefense\Level\Wave.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TowerDefense.Nodes.FixedNodeSelector" Collapsed="true">
+    <Position X="4.25" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\TowerDefense\Nodes\FixedNodeSelector.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TowerDefense.Nodes.NodeSelector" Collapsed="true">
+    <Position X="5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAQAAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\TowerDefense\Nodes\NodeSelector.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TowerDefense.Nodes.RandomNodeSelector" Collapsed="true">
+    <Position X="6" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIEAAAAAAAAAAAAAAAAAAQAAEAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\TowerDefense\Nodes\RandomNodeSelector.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TowerDefense.Towers.Tower" Collapsed="true">
+    <Position X="9.5" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAIDAgBQAAQIEQGAQgAQBEAAAAEAAABABAAAAAgAAKA=</HashCode>
+      <FileName>Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\TowerDefense\Towers\Tower.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TowerDefense.UI.HUD.GameUI" Collapsed="true">
+    <Position X="10.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>qkCnpKIQADIAmIEQDAEEQwABAQAYhAAMCEJBMAAGKWA=</HashCode>
+      <FileName>Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\TowerDefense\UI\HUD\GameUI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TowerDefense.UI.HUD.TowerDefenseMainMenu" Collapsed="true">
+    <Position X="12.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAABABAAAAIAAAAAAAAAEAAAAAAIBAAAAAAAAEA=</HashCode>
+      <FileName>Assets\UnityTechnologies\TowerDefenseTemplate\Scripts\TowerDefense\UI\HUD\TowerDefenseMainMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
