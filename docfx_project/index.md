@@ -26,4 +26,4 @@ This is the current state of the project using the Visual Studio Class Designer.
 Logic to be updated is within the Agent class and NodeSelector class, specifically within the MoveToNode() function. Here we can control where the agent moves next based on the existing nodes defined within the environment. We will also need to create a new class called OptimalNodeSelector that inherits from the NodeSelector class to feed in the optimal node to the MoveToNode() method.
 
 
-![supposed to be a uml diagram here](/images/td_uml.png)
+![supposed to be a uml diagram here](/images/TdUml.png)
