@@ -117,6 +117,56 @@ Requires a collider to be added manually.</p>
   </table>
   
   
+  <h4 id="TowerDefense_Nodes_Node_nearbyTowers" data-uid="TowerDefense.Nodes.Node.nearbyTowers">nearbyTowers</h4>
+  <div class="markdown level1 summary"><p>List of towers near the node</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;Tower&gt; nearbyTowers</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">List</span>&lt;<span class="xref">Tower</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TowerDefense_Nodes_Node_selector" data-uid="TowerDefense.Nodes.Node.selector">selector</h4>
+  <div class="markdown level1 summary"><p>Node selector used with this node</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NodeSelector selector</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TowerDefense.Nodes.NodeSelector.html">NodeSelector</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <h4 id="TowerDefense_Nodes_Node_weight" data-uid="TowerDefense.Nodes.Node.weight">weight</h4>
   <div class="markdown level1 summary"><p>Selection weight of the node</p>
 </div>
@@ -136,6 +186,110 @@ Requires a collider to be added manually.</p>
     <tbody>
       <tr>
         <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="TowerDefense_Nodes_Node_cumulativeDPS_" data-uid="TowerDefense.Nodes.Node.cumulativeDPS*"></a>
+  <h4 id="TowerDefense_Nodes_Node_cumulativeDPS" data-uid="TowerDefense.Nodes.Node.cumulativeDPS">cumulativeDPS</h4>
+  <div class="markdown level1 summary"><p>Total damage per second of all nearby towers summed up</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float cumulativeDPS { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TowerDefense_Nodes_Node_cumulativeHP_" data-uid="TowerDefense.Nodes.Node.cumulativeHP*"></a>
+  <h4 id="TowerDefense_Nodes_Node_cumulativeHP" data-uid="TowerDefense.Nodes.Node.cumulativeHP">cumulativeHP</h4>
+  <div class="markdown level1 summary"><p>Total hit points of all nearby towers summed up</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float cumulativeHP { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TowerDefense_Nodes_Node_currentAgent_" data-uid="TowerDefense.Nodes.Node.currentAgent*"></a>
+  <h4 id="TowerDefense_Nodes_Node_currentAgent" data-uid="TowerDefense.Nodes.Node.currentAgent">currentAgent</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Agent currentAgent { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Agent</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TowerDefense_Nodes_Node_enemyPref_" data-uid="TowerDefense.Nodes.Node.enemyPref*"></a>
+  <h4 id="TowerDefense_Nodes_Node_enemyPref" data-uid="TowerDefense.Nodes.Node.enemyPref">enemyPref</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Node.EnemyPref enemyPref { get; protected set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TowerDefense.Nodes.Node.EnemyPref.html">Node.EnemyPref</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -224,6 +378,16 @@ Requires a collider to be added manually.</p>
       </tr>
     </tbody>
   </table>
+  
+  
+  <a id="TowerDefense_Nodes_Node_SetNodeStats_" data-uid="TowerDefense.Nodes.Node.SetNodeStats*"></a>
+  <h4 id="TowerDefense_Nodes_Node_SetNodeStats" data-uid="TowerDefense.Nodes.Node.SetNodeStats">SetNodeStats()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetNodeStats()</code></pre>
+  </div>
 </article>
           </div>
           

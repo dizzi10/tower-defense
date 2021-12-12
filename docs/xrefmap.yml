@@ -3539,6 +3539,76 @@ references:
   commentId: F:TowerDefense.Nodes.Node.areaMesh
   fullName: TowerDefense.Nodes.Node.areaMesh
   nameWithType: Node.areaMesh
+- uid: TowerDefense.Nodes.Node.cumulativeDPS
+  name: cumulativeDPS
+  href: api/TowerDefense.Nodes.Node.html#TowerDefense_Nodes_Node_cumulativeDPS
+  commentId: P:TowerDefense.Nodes.Node.cumulativeDPS
+  fullName: TowerDefense.Nodes.Node.cumulativeDPS
+  nameWithType: Node.cumulativeDPS
+- uid: TowerDefense.Nodes.Node.cumulativeDPS*
+  name: cumulativeDPS
+  href: api/TowerDefense.Nodes.Node.html#TowerDefense_Nodes_Node_cumulativeDPS_
+  commentId: Overload:TowerDefense.Nodes.Node.cumulativeDPS
+  isSpec: "True"
+  fullName: TowerDefense.Nodes.Node.cumulativeDPS
+  nameWithType: Node.cumulativeDPS
+- uid: TowerDefense.Nodes.Node.cumulativeHP
+  name: cumulativeHP
+  href: api/TowerDefense.Nodes.Node.html#TowerDefense_Nodes_Node_cumulativeHP
+  commentId: P:TowerDefense.Nodes.Node.cumulativeHP
+  fullName: TowerDefense.Nodes.Node.cumulativeHP
+  nameWithType: Node.cumulativeHP
+- uid: TowerDefense.Nodes.Node.cumulativeHP*
+  name: cumulativeHP
+  href: api/TowerDefense.Nodes.Node.html#TowerDefense_Nodes_Node_cumulativeHP_
+  commentId: Overload:TowerDefense.Nodes.Node.cumulativeHP
+  isSpec: "True"
+  fullName: TowerDefense.Nodes.Node.cumulativeHP
+  nameWithType: Node.cumulativeHP
+- uid: TowerDefense.Nodes.Node.currentAgent
+  name: currentAgent
+  href: api/TowerDefense.Nodes.Node.html#TowerDefense_Nodes_Node_currentAgent
+  commentId: P:TowerDefense.Nodes.Node.currentAgent
+  fullName: TowerDefense.Nodes.Node.currentAgent
+  nameWithType: Node.currentAgent
+- uid: TowerDefense.Nodes.Node.currentAgent*
+  name: currentAgent
+  href: api/TowerDefense.Nodes.Node.html#TowerDefense_Nodes_Node_currentAgent_
+  commentId: Overload:TowerDefense.Nodes.Node.currentAgent
+  isSpec: "True"
+  fullName: TowerDefense.Nodes.Node.currentAgent
+  nameWithType: Node.currentAgent
+- uid: TowerDefense.Nodes.Node.enemyPref
+  name: enemyPref
+  href: api/TowerDefense.Nodes.Node.html#TowerDefense_Nodes_Node_enemyPref
+  commentId: P:TowerDefense.Nodes.Node.enemyPref
+  fullName: TowerDefense.Nodes.Node.enemyPref
+  nameWithType: Node.enemyPref
+- uid: TowerDefense.Nodes.Node.EnemyPref
+  name: Node.EnemyPref
+  href: api/TowerDefense.Nodes.Node.EnemyPref.html
+  commentId: T:TowerDefense.Nodes.Node.EnemyPref
+  fullName: TowerDefense.Nodes.Node.EnemyPref
+  nameWithType: Node.EnemyPref
+- uid: TowerDefense.Nodes.Node.enemyPref*
+  name: enemyPref
+  href: api/TowerDefense.Nodes.Node.html#TowerDefense_Nodes_Node_enemyPref_
+  commentId: Overload:TowerDefense.Nodes.Node.enemyPref
+  isSpec: "True"
+  fullName: TowerDefense.Nodes.Node.enemyPref
+  nameWithType: Node.enemyPref
+- uid: TowerDefense.Nodes.Node.EnemyPref.AntiAir
+  name: AntiAir
+  href: api/TowerDefense.Nodes.Node.EnemyPref.html#TowerDefense_Nodes_Node_EnemyPref_AntiAir
+  commentId: F:TowerDefense.Nodes.Node.EnemyPref.AntiAir
+  fullName: TowerDefense.Nodes.Node.EnemyPref.AntiAir
+  nameWithType: Node.EnemyPref.AntiAir
+- uid: TowerDefense.Nodes.Node.EnemyPref.AntiGround
+  name: AntiGround
+  href: api/TowerDefense.Nodes.Node.EnemyPref.html#TowerDefense_Nodes_Node_EnemyPref_AntiGround
+  commentId: F:TowerDefense.Nodes.Node.EnemyPref.AntiGround
+  fullName: TowerDefense.Nodes.Node.EnemyPref.AntiGround
+  nameWithType: Node.EnemyPref.AntiGround
 - uid: TowerDefense.Nodes.Node.GetNextNode
   name: GetNextNode()
   href: api/TowerDefense.Nodes.Node.html#TowerDefense_Nodes_Node_GetNextNode
@@ -3565,6 +3635,12 @@ references:
   isSpec: "True"
   fullName: TowerDefense.Nodes.Node.GetRandomPointInNodeArea
   nameWithType: Node.GetRandomPointInNodeArea
+- uid: TowerDefense.Nodes.Node.nearbyTowers
+  name: nearbyTowers
+  href: api/TowerDefense.Nodes.Node.html#TowerDefense_Nodes_Node_nearbyTowers
+  commentId: F:TowerDefense.Nodes.Node.nearbyTowers
+  fullName: TowerDefense.Nodes.Node.nearbyTowers
+  nameWithType: Node.nearbyTowers
 - uid: TowerDefense.Nodes.Node.OnTriggerEnter(Collider)
   name: OnTriggerEnter(Collider)
   href: api/TowerDefense.Nodes.Node.html#TowerDefense_Nodes_Node_OnTriggerEnter_Collider_
@@ -3578,6 +3654,25 @@ references:
   isSpec: "True"
   fullName: TowerDefense.Nodes.Node.OnTriggerEnter
   nameWithType: Node.OnTriggerEnter
+- uid: TowerDefense.Nodes.Node.selector
+  name: selector
+  href: api/TowerDefense.Nodes.Node.html#TowerDefense_Nodes_Node_selector
+  commentId: F:TowerDefense.Nodes.Node.selector
+  fullName: TowerDefense.Nodes.Node.selector
+  nameWithType: Node.selector
+- uid: TowerDefense.Nodes.Node.SetNodeStats
+  name: SetNodeStats()
+  href: api/TowerDefense.Nodes.Node.html#TowerDefense_Nodes_Node_SetNodeStats
+  commentId: M:TowerDefense.Nodes.Node.SetNodeStats
+  fullName: TowerDefense.Nodes.Node.SetNodeStats()
+  nameWithType: Node.SetNodeStats()
+- uid: TowerDefense.Nodes.Node.SetNodeStats*
+  name: SetNodeStats
+  href: api/TowerDefense.Nodes.Node.html#TowerDefense_Nodes_Node_SetNodeStats_
+  commentId: Overload:TowerDefense.Nodes.Node.SetNodeStats
+  isSpec: "True"
+  fullName: TowerDefense.Nodes.Node.SetNodeStats
+  nameWithType: Node.SetNodeStats
 - uid: TowerDefense.Nodes.Node.weight
   name: weight
   href: api/TowerDefense.Nodes.Node.html#TowerDefense_Nodes_Node_weight
@@ -3609,6 +3704,31 @@ references:
   commentId: F:TowerDefense.Nodes.NodeSelector.linkedNodes
   fullName: TowerDefense.Nodes.NodeSelector.linkedNodes
   nameWithType: NodeSelector.linkedNodes
+- uid: TowerDefense.Nodes.OptimalNodeSelector
+  name: OptimalNodeSelector
+  href: api/TowerDefense.Nodes.OptimalNodeSelector.html
+  commentId: T:TowerDefense.Nodes.OptimalNodeSelector
+  fullName: TowerDefense.Nodes.OptimalNodeSelector
+  nameWithType: OptimalNodeSelector
+- uid: TowerDefense.Nodes.OptimalNodeSelector.GetNextNode
+  name: GetNextNode()
+  href: api/TowerDefense.Nodes.OptimalNodeSelector.html#TowerDefense_Nodes_OptimalNodeSelector_GetNextNode
+  commentId: M:TowerDefense.Nodes.OptimalNodeSelector.GetNextNode
+  fullName: TowerDefense.Nodes.OptimalNodeSelector.GetNextNode()
+  nameWithType: OptimalNodeSelector.GetNextNode()
+- uid: TowerDefense.Nodes.OptimalNodeSelector.GetNextNode*
+  name: GetNextNode
+  href: api/TowerDefense.Nodes.OptimalNodeSelector.html#TowerDefense_Nodes_OptimalNodeSelector_GetNextNode_
+  commentId: Overload:TowerDefense.Nodes.OptimalNodeSelector.GetNextNode
+  isSpec: "True"
+  fullName: TowerDefense.Nodes.OptimalNodeSelector.GetNextNode
+  nameWithType: OptimalNodeSelector.GetNextNode
+- uid: TowerDefense.Nodes.OptimalNodeSelector.nodes
+  name: nodes
+  href: api/TowerDefense.Nodes.OptimalNodeSelector.html#TowerDefense_Nodes_OptimalNodeSelector_nodes
+  commentId: F:TowerDefense.Nodes.OptimalNodeSelector.nodes
+  fullName: TowerDefense.Nodes.OptimalNodeSelector.nodes
+  nameWithType: OptimalNodeSelector.nodes
 - uid: TowerDefense.Nodes.RandomNodeSelector
   name: RandomNodeSelector
   href: api/TowerDefense.Nodes.RandomNodeSelector.html
@@ -5312,6 +5432,12 @@ references:
   isSpec: "True"
   fullName: TowerDefense.Towers.Tower.towerGhostPrefab
   nameWithType: Tower.towerGhostPrefab
+- uid: TowerDefense.Towers.Tower.towerModified
+  name: towerModified
+  href: api/TowerDefense.Towers.Tower.html#TowerDefense_Towers_Tower_towerModified
+  commentId: E:TowerDefense.Towers.Tower.towerModified
+  fullName: TowerDefense.Towers.Tower.towerModified
+  nameWithType: Tower.towerModified
 - uid: TowerDefense.Towers.Tower.towerName
   name: towerName
   href: api/TowerDefense.Towers.Tower.html#TowerDefense_Towers_Tower_towerName

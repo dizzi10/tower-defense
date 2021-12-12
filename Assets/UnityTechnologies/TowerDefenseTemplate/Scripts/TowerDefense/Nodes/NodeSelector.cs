@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using TowerDefense.Agents;
 using UnityEngine;
 
 namespace TowerDefense.Nodes
@@ -18,6 +19,7 @@ namespace TowerDefense.Nodes
 		/// </summary>
 		/// <returns>The next node in the list of Nodes, null if the node is the endpoint</returns>
 		public abstract Node GetNextNode();
+
 
 #if UNITY_EDITOR
 		/// <summary>

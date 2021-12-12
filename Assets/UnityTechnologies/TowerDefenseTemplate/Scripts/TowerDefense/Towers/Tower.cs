@@ -88,6 +88,11 @@ namespace TowerDefense.Towers
 		public Action towerDestroyed;
 
 		/// <summary>
+		/// Fires when a tower is modified, ie created, destroyed, upgraded etc.
+		/// </summary>
+		public static event Action<Tower> towerModified;
+
+		/// <summary>
 		/// Provide the tower with data to initialize with
 		/// </summary>
 		/// <param name="targetArea">The placement area configuration</param>
@@ -109,6 +114,8 @@ namespace TowerDefense.Towers
 			{
 				LevelManager.instance.levelStateChanged += OnLevelStateChanged;
 			}
+
+			towerModified(this);
 		}
 
 		/// <summary>
@@ -131,6 +138,7 @@ namespace TowerDefense.Towers
 		{
 			// Invoke base kill method
 			Kill();
+			towerModified(this);
 		}
 
 		/// <summary>
@@ -173,6 +181,8 @@ namespace TowerDefense.Towers
 				return false;
 			}
 			SetLevel(currentLevel + 1);
+
+			towerModified(this);
 			return true;
 		}
 
@@ -189,6 +199,8 @@ namespace TowerDefense.Towers
 				return false;
 			}
 			SetLevel(currentLevel - 1);
+
+			towerModified(this);
 			return true;
 		}
 
@@ -225,6 +237,8 @@ namespace TowerDefense.Towers
 			
 			placementArea.Clear(gridPosition, dimensions);
 			Destroy(gameObject);
+
+			towerModified(this);
 		}
 
 		/// <summary>
