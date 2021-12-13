@@ -55,12 +55,22 @@ namespace TowerDefense.Nodes
         public void SetOptimalNodes(Node startNode)
         {
             var result = optimalNodeFinder.getOptimalNode(startNode);
-            Debug.Log(@$"Possible nodes from start {string.Join(",", result[0])} Chosen node is {result[1].name} with nearby towers: {result[2]}
-            total hp: {result[3]}, total dps: {result[4]}, enemy preference: {result[5]},
-            node pos: {result[6]}");
 
-            bestAttackingAgentNode = result[0][0];
-            bestFlyingAgentNode = result[0][1];
+            bestAttackingAgentNode = result[0];
+            bestFlyingAgentNode = result[1];
+
+            Debug.Log(@$"Possible nodes from start {string.Join(",", startNode.selector.linkedNodes)}");
+
+            Debug.Log(@$"Chosen nodes are {bestAttackingAgentNode.name} for attacking agents with nearby towers: {bestAttackingAgentNode.nearbyTowers.Count} and 
+            {bestFlyingAgentNode.name} for flying agents with nearby towers: {bestFlyingAgentNode.nearbyTowers.Count}");
+
+            Debug.Log(@$"{bestAttackingAgentNode.name} stats: total hp: {bestAttackingAgentNode.cumulativeHP}, 
+            total dps: {bestAttackingAgentNode.cumulativeDPS}, enemy preference: {bestAttackingAgentNode.enemyPref},
+            node pos: {bestAttackingAgentNode.transform.position}");
+
+            Debug.Log(@$" {bestFlyingAgentNode.name} stats: total hp: {bestFlyingAgentNode.cumulativeHP}, 
+            total dps: {bestFlyingAgentNode.cumulativeDPS}, enemy preference: {bestFlyingAgentNode.enemyPref},
+            node pos: {bestFlyingAgentNode.transform.position}");
         }
 
         /// <summary>
